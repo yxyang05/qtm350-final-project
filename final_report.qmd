@@ -1,0 +1,24 @@
+---
+title: "QTM 350 Final Project"
+author:
+  - name: "Annie Cao (ID: 2599315)"
+  - name: "Vicki Wang (ID: 2581225)"
+  - name: "Yan Yang (ID: 2610419)"
+  - name: "Gloria Wang (2550999)"
+format:
+  html:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+execute:
+  echo: true      
+  warning: false  #hide warnings in report
+  message: false  #hide messages
+  cache: true   
+---
+
+## Project Name: 
+
+The overarching goal of this project is to evaluate global progress in equitable access to education from 2000 to 2020. We focus on whether less-developed regions have been catching up to the world average in school enrollment and whether gender disparities in these regions have narrowed over time. By combining regional and gender-disaggregated enrollment data, we assess whether international development efforts have contributed to convergence in both educational attainment and gender parity.
