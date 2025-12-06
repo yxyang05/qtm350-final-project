@@ -1,0 +1,1513 @@
+region,series,year,value
+East Asia & Pacific,primary,2000,110.224029541016
+East Asia & Pacific,primary,2001,110.92357635498
+East Asia & Pacific,primary,2002,109.465171813965
+East Asia & Pacific,primary,2003,108.066650390625
+East Asia & Pacific,primary,2004,106.849769592285
+East Asia & Pacific,primary,2005,105.281303405762
+East Asia & Pacific,primary,2006,104.555038452148
+East Asia & Pacific,primary,2007,105.071189880371
+East Asia & Pacific,primary,2008,105.375160217285
+East Asia & Pacific,primary,2009,105.32967376709
+East Asia & Pacific,primary,2010,104.872680664062
+East Asia & Pacific,primary,2011,105.003997802734
+East Asia & Pacific,primary,2012,105.154861450195
+East Asia & Pacific,primary,2013,104.620399475098
+East Asia & Pacific,primary,2014,101.81568145752
+East Asia & Pacific,primary,2015,101.045478820801
+East Asia & Pacific,primary,2016,100.860946655273
+East Asia & Pacific,primary,2017,100.652389526367
+East Asia & Pacific,primary,2018,100.173690795898
+East Asia & Pacific,primary,2019,99.8616180419922
+East Asia & Pacific,primary,2020,100.061592102051
+East Asia & Pacific,primary_female,2000,110.308181762695
+East Asia & Pacific,primary_female,2001,111.222671508789
+East Asia & Pacific,primary_female,2002,109.70955657959
+East Asia & Pacific,primary_female,2003,108.323722839355
+East Asia & Pacific,primary_female,2004,107.229118347168
+East Asia & Pacific,primary_female,2005,105.498176574707
+East Asia & Pacific,primary_female,2006,104.717170715332
+East Asia & Pacific,primary_female,2007,105.105827331543
+East Asia & Pacific,primary_female,2008,105.452972412109
+East Asia & Pacific,primary_female,2009,105.258842468262
+East Asia & Pacific,primary_female,2010,105.148918151855
+East Asia & Pacific,primary_female,2011,105.276351928711
+East Asia & Pacific,primary_female,2012,105.2080078125
+East Asia & Pacific,primary_female,2013,104.752647399902
+East Asia & Pacific,primary_female,2014,101.899658203125
+East Asia & Pacific,primary_female,2015,100.989723205566
+East Asia & Pacific,primary_female,2016,100.871597290039
+East Asia & Pacific,primary_female,2017,100.631492614746
+East Asia & Pacific,primary_female,2018,100.128768920898
+East Asia & Pacific,primary_female,2019,99.8039627075195
+East Asia & Pacific,primary_female,2020,99.9909210205078
+East Asia & Pacific,primary_male,2000,110.146797180176
+East Asia & Pacific,primary_male,2001,110.649879455566
+East Asia & Pacific,primary_male,2002,109.242149353027
+East Asia & Pacific,primary_male,2003,107.832626342773
+East Asia & Pacific,primary_male,2004,106.506790161133
+East Asia & Pacific,primary_male,2005,105.085670471191
+East Asia & Pacific,primary_male,2006,104.409080505371
+East Asia & Pacific,primary_male,2007,105.040061950684
+East Asia & Pacific,primary_male,2008,105.305358886719
+East Asia & Pacific,primary_male,2009,105.39315032959
+East Asia & Pacific,primary_male,2010,104.625343322754
+East Asia & Pacific,primary_male,2011,104.760368347168
+East Asia & Pacific,primary_male,2012,105.107368469238
+East Asia & Pacific,primary_male,2013,104.502311706543
+East Asia & Pacific,primary_male,2014,101.740730285645
+East Asia & Pacific,primary_male,2015,101.095222473145
+East Asia & Pacific,primary_male,2016,100.851448059082
+East Asia & Pacific,primary_male,2017,100.671051025391
+East Asia & Pacific,primary_male,2018,100.213882446289
+East Asia & Pacific,primary_male,2019,99.9132995605469
+East Asia & Pacific,primary_male,2020,100.125030517578
+East Asia & Pacific,secondary,2000,62.1436996459961
+East Asia & Pacific,secondary,2001,63.9107894897461
+East Asia & Pacific,secondary,2002,64.6817474365234
+East Asia & Pacific,secondary,2003,65.9770584106445
+East Asia & Pacific,secondary,2004,68.4119262695312
+East Asia & Pacific,secondary,2005,70.3503723144531
+East Asia & Pacific,secondary,2006,73.1226196289062
+East Asia & Pacific,secondary,2007,76.6228790283203
+East Asia & Pacific,secondary,2008,79.1833419799805
+East Asia & Pacific,secondary,2009,83.070068359375
+East Asia & Pacific,secondary,2010,84.7297592163086
+East Asia & Pacific,secondary,2011,86.061653137207
+East Asia & Pacific,secondary,2012,86.5859222412109
+East Asia & Pacific,secondary,2013,87.486198425293
+East Asia & Pacific,secondary,2014,86.9173736572266
+East Asia & Pacific,secondary,2015,87.1539535522461
+East Asia & Pacific,secondary,2016,86.5248031616211
+East Asia & Pacific,secondary,2017,86.7522583007812
+East Asia & Pacific,secondary,2018,87.2916488647461
+East Asia & Pacific,secondary,2019,88.9832077026367
+East Asia & Pacific,secondary,2020,89.899040222168
+East Asia & Pacific,secondary_female,2000,60.9457092285156
+East Asia & Pacific,secondary_female,2001,62.8622512817383
+East Asia & Pacific,secondary_female,2002,63.8230400085449
+East Asia & Pacific,secondary_female,2003,65.3064880371094
+East Asia & Pacific,secondary_female,2004,68.1626815795898
+East Asia & Pacific,secondary_female,2005,70.5025024414062
+East Asia & Pacific,secondary_female,2006,73.6256332397461
+East Asia & Pacific,secondary_female,2007,77.3227996826172
+East Asia & Pacific,secondary_female,2008,80.100212097168
+East Asia & Pacific,secondary_female,2009,84.3223571777344
+East Asia & Pacific,secondary_female,2010,85.2631530761719
+East Asia & Pacific,secondary_female,2011,86.7125930786133
+East Asia & Pacific,secondary_female,2012,87.5260620117188
+East Asia & Pacific,secondary_female,2013,88.3574523925781
+East Asia & Pacific,secondary_female,2014,88.063102722168
+East Asia & Pacific,secondary_female,2015,88.283332824707
+East Asia & Pacific,secondary_female,2016,87.7668609619141
+East Asia & Pacific,secondary_female,2017,87.9111175537109
+East Asia & Pacific,secondary_female,2018,88.4812393188477
+East Asia & Pacific,secondary_female,2019,90.0556335449219
+East Asia & Pacific,secondary_female,2020,90.8184967041016
+East Asia & Pacific,secondary_male,2000,63.2668914794922
+East Asia & Pacific,secondary_male,2001,64.8903121948242
+East Asia & Pacific,secondary_male,2002,65.4806671142578
+East Asia & Pacific,secondary_male,2003,66.5983200073242
+East Asia & Pacific,secondary_male,2004,68.6420135498047
+East Asia & Pacific,secondary_male,2005,70.2104263305664
+East Asia & Pacific,secondary_male,2006,72.6614990234375
+East Asia & Pacific,secondary_male,2007,75.9831390380859
+East Asia & Pacific,secondary_male,2008,78.3479080200195
+East Asia & Pacific,secondary_male,2009,81.9322509765625
+East Asia & Pacific,secondary_male,2010,84.2464370727539
+East Asia & Pacific,secondary_male,2011,85.472900390625
+East Asia & Pacific,secondary_male,2012,85.7374725341797
+East Asia & Pacific,secondary_male,2013,86.7014999389648
+East Asia & Pacific,secondary_male,2014,85.8870620727539
+East Asia & Pacific,secondary_male,2015,86.1397933959961
+East Asia & Pacific,secondary_male,2016,85.4104537963867
+East Asia & Pacific,secondary_male,2017,85.7120208740234
+East Asia & Pacific,secondary_male,2018,86.2228088378906
+East Asia & Pacific,secondary_male,2019,88.0189514160156
+East Asia & Pacific,secondary_male,2020,89.0723266601562
+East Asia & Pacific,tertiary,2000,16.5568504333496
+East Asia & Pacific,tertiary,2001,17.4698600769043
+East Asia & Pacific,tertiary,2002,19.0702209472656
+East Asia & Pacific,tertiary,2003,20.7942905426025
+East Asia & Pacific,tertiary,2004,22.3188800811768
+East Asia & Pacific,tertiary,2005,23.4988803863525
+East Asia & Pacific,tertiary,2006,24.681209564209
+East Asia & Pacific,tertiary,2007,25.5336608886719
+East Asia & Pacific,tertiary,2008,26.1920108795166
+East Asia & Pacific,tertiary,2009,27.3756103515625
+East Asia & Pacific,tertiary,2010,29.0185108184814
+East Asia & Pacific,tertiary,2011,30.5334892272949
+East Asia & Pacific,tertiary,2012,32.6158103942871
+East Asia & Pacific,tertiary,2013,35.0063514709473
+East Asia & Pacific,tertiary,2014,41.8916206359863
+East Asia & Pacific,tertiary,2015,44.2587699890137
+East Asia & Pacific,tertiary,2016,45.9389686584473
+East Asia & Pacific,tertiary,2017,46.5590782165527
+East Asia & Pacific,tertiary,2018,47.4009819030762
+East Asia & Pacific,tertiary,2019,49.4808692932129
+East Asia & Pacific,tertiary,2020,52.6518783569336
+East Asia & Pacific,tertiary_female,2000,15.1963996887207
+East Asia & Pacific,tertiary_female,2001,15.9441404342651
+East Asia & Pacific,tertiary_female,2002,17.7628498077393
+East Asia & Pacific,tertiary_female,2003,19.4840202331543
+East Asia & Pacific,tertiary_female,2004,21.2422294616699
+East Asia & Pacific,tertiary_female,2005,22.5040702819824
+East Asia & Pacific,tertiary_female,2006,24.130350112915
+East Asia & Pacific,tertiary_female,2007,25.4850807189941
+East Asia & Pacific,tertiary_female,2008,26.3920707702637
+East Asia & Pacific,tertiary_female,2009,27.8694000244141
+East Asia & Pacific,tertiary_female,2010,29.7747993469238
+East Asia & Pacific,tertiary_female,2011,31.519889831543
+East Asia & Pacific,tertiary_female,2012,34.1336288452148
+East Asia & Pacific,tertiary_female,2013,37.0369415283203
+East Asia & Pacific,tertiary_female,2014,44.8091697692871
+East Asia & Pacific,tertiary_female,2015,47.6613807678223
+East Asia & Pacific,tertiary_female,2016,49.9144515991211
+East Asia & Pacific,tertiary_female,2017,50.6279106140137
+East Asia & Pacific,tertiary_female,2018,51.6399803161621
+East Asia & Pacific,tertiary_female,2019,54.0149383544922
+East Asia & Pacific,tertiary_female,2020,57.0703086853027
+East Asia & Pacific,tertiary_male,2000,17.8526096343994
+East Asia & Pacific,tertiary_male,2001,18.9207000732422
+East Asia & Pacific,tertiary_male,2002,20.3110599517822
+East Asia & Pacific,tertiary_male,2003,22.0352191925049
+East Asia & Pacific,tertiary_male,2004,23.3358497619629
+East Asia & Pacific,tertiary_male,2005,24.4356193542481
+East Asia & Pacific,tertiary_male,2006,25.1979198455811
+East Asia & Pacific,tertiary_male,2007,25.5790996551514
+East Asia & Pacific,tertiary_male,2008,26.0055294036865
+East Asia & Pacific,tertiary_male,2009,26.9169406890869
+East Asia & Pacific,tertiary_male,2010,28.3187103271484
+East Asia & Pacific,tertiary_male,2011,29.6235809326172
+East Asia & Pacific,tertiary_male,2012,31.2216701507568
+East Asia & Pacific,tertiary_male,2013,33.1487312316895
+East Asia & Pacific,tertiary_male,2014,39.2321014404297
+East Asia & Pacific,tertiary_male,2015,41.166690826416
+East Asia & Pacific,tertiary_male,2016,42.333179473877
+East Asia & Pacific,tertiary_male,2017,42.8744201660156
+East Asia & Pacific,tertiary_male,2018,43.5660591125488
+East Asia & Pacific,tertiary_male,2019,45.3829002380371
+East Asia & Pacific,tertiary_male,2020,48.6606407165527
+Europe & Central Asia,primary,2000,104.001197814941
+Europe & Central Asia,primary,2001,104.970207214355
+Europe & Central Asia,primary,2002,105.540267944336
+Europe & Central Asia,primary,2003,104.293769836426
+Europe & Central Asia,primary,2004,103.689987182617
+Europe & Central Asia,primary,2005,102.640342712402
+Europe & Central Asia,primary,2006,102.209281921387
+Europe & Central Asia,primary,2007,101.992767333984
+Europe & Central Asia,primary,2008,101.62899017334
+Europe & Central Asia,primary,2009,101.233612060547
+Europe & Central Asia,primary,2010,101.274749755859
+Europe & Central Asia,primary,2011,101.192428588867
+Europe & Central Asia,primary,2012,101.023292541504
+Europe & Central Asia,primary,2013,102.128631591797
+Europe & Central Asia,primary,2014,101.195068359375
+Europe & Central Asia,primary,2015,100.50414276123
+Europe & Central Asia,primary,2016,100.152008056641
+Europe & Central Asia,primary,2017,99.9920501708984
+Europe & Central Asia,primary,2018,100.49089050293
+Europe & Central Asia,primary,2019,100.92504119873
+Europe & Central Asia,primary,2020,100.668319702148
+Europe & Central Asia,primary_female,2000,102.909729003906
+Europe & Central Asia,primary_female,2001,104.007148742676
+Europe & Central Asia,primary_female,2002,104.528419494629
+Europe & Central Asia,primary_female,2003,103.392578125
+Europe & Central Asia,primary_female,2004,102.834770202637
+Europe & Central Asia,primary_female,2005,101.803573608398
+Europe & Central Asia,primary_female,2006,101.508598327637
+Europe & Central Asia,primary_female,2007,101.375122070312
+Europe & Central Asia,primary_female,2008,101.124740600586
+Europe & Central Asia,primary_female,2009,100.88973236084
+Europe & Central Asia,primary_female,2010,101.011749267578
+Europe & Central Asia,primary_female,2011,101.034629821777
+Europe & Central Asia,primary_female,2012,100.907760620117
+Europe & Central Asia,primary_female,2013,102.105651855469
+Europe & Central Asia,primary_female,2014,101.212387084961
+Europe & Central Asia,primary_female,2015,100.504280090332
+Europe & Central Asia,primary_female,2016,100.15950012207
+Europe & Central Asia,primary_female,2017,99.8351898193359
+Europe & Central Asia,primary_female,2018,100.255867004395
+Europe & Central Asia,primary_female,2019,100.772216796875
+Europe & Central Asia,primary_female,2020,100.501480102539
+Europe & Central Asia,primary_male,2000,105.046333312988
+Europe & Central Asia,primary_male,2001,105.890327453613
+Europe & Central Asia,primary_male,2002,106.507461547852
+Europe & Central Asia,primary_male,2003,105.155151367188
+Europe & Central Asia,primary_male,2004,104.507049560547
+Europe & Central Asia,primary_male,2005,103.439407348633
+Europe & Central Asia,primary_male,2006,102.878021240234
+Europe & Central Asia,primary_male,2007,102.581497192383
+Europe & Central Asia,primary_male,2008,102.108627319336
+Europe & Central Asia,primary_male,2009,101.560279846191
+Europe & Central Asia,primary_male,2010,101.524429321289
+Europe & Central Asia,primary_male,2011,101.34211730957
+Europe & Central Asia,primary_male,2012,101.132850646973
+Europe & Central Asia,primary_male,2013,102.150421142578
+Europe & Central Asia,primary_male,2014,101.178649902344
+Europe & Central Asia,primary_male,2015,100.504013061523
+Europe & Central Asia,primary_male,2016,100.144912719727
+Europe & Central Asia,primary_male,2017,100.140731811523
+Europe & Central Asia,primary_male,2018,100.713623046875
+Europe & Central Asia,primary_male,2019,101.069778442383
+Europe & Central Asia,primary_male,2020,100.82633972168
+Europe & Central Asia,secondary,2000,95.2436599731445
+Europe & Central Asia,secondary,2001,96.9802398681641
+Europe & Central Asia,secondary,2002,98.0451431274414
+Europe & Central Asia,secondary,2003,98.739990234375
+Europe & Central Asia,secondary,2004,96.467643737793
+Europe & Central Asia,secondary,2005,96.1891174316406
+Europe & Central Asia,secondary,2006,96.7032089233398
+Europe & Central Asia,secondary,2007,97.109733581543
+Europe & Central Asia,secondary,2008,97.6943511962891
+Europe & Central Asia,secondary,2009,97.5254592895508
+Europe & Central Asia,secondary,2010,99.2390975952148
+Europe & Central Asia,secondary,2011,99.5089569091797
+Europe & Central Asia,secondary,2012,99.0625915527344
+Europe & Central Asia,secondary,2013,104.560623168945
+Europe & Central Asia,secondary,2014,104.894180297852
+Europe & Central Asia,secondary,2015,104.618797302246
+Europe & Central Asia,secondary,2016,104.274139404297
+Europe & Central Asia,secondary,2017,105.108917236328
+Europe & Central Asia,secondary,2018,104.914413452148
+Europe & Central Asia,secondary,2019,104.735778808594
+Europe & Central Asia,secondary,2020,103.197662353516
+Europe & Central Asia,secondary_female,2000,94.383918762207
+Europe & Central Asia,secondary_female,2001,95.9396591186523
+Europe & Central Asia,secondary_female,2002,96.8896865844727
+Europe & Central Asia,secondary_female,2003,97.4431228637695
+Europe & Central Asia,secondary_female,2004,95.3501205444336
+Europe & Central Asia,secondary_female,2005,95.1080474853516
+Europe & Central Asia,secondary_female,2006,95.684700012207
+Europe & Central Asia,secondary_female,2007,96.1526184082031
+Europe & Central Asia,secondary_female,2008,96.8290634155273
+Europe & Central Asia,secondary_female,2009,96.6895370483398
+Europe & Central Asia,secondary_female,2010,98.2913665771484
+Europe & Central Asia,secondary_female,2011,98.4919281005859
+Europe & Central Asia,secondary_female,2012,98.2450714111328
+Europe & Central Asia,secondary_female,2013,104.177047729492
+Europe & Central Asia,secondary_female,2014,104.560272216797
+Europe & Central Asia,secondary_female,2015,104.293327331543
+Europe & Central Asia,secondary_female,2016,104.06916809082
+Europe & Central Asia,secondary_female,2017,104.589317321777
+Europe & Central Asia,secondary_female,2018,104.573738098145
+Europe & Central Asia,secondary_female,2019,104.25904083252
+Europe & Central Asia,secondary_female,2020,102.877738952637
+Europe & Central Asia,secondary_male,2000,96.0724334716797
+Europe & Central Asia,secondary_male,2001,97.9816818237305
+Europe & Central Asia,secondary_male,2002,99.1559677124023
+Europe & Central Asia,secondary_male,2003,99.9857025146484
+Europe & Central Asia,secondary_male,2004,97.5405731201172
+Europe & Central Asia,secondary_male,2005,97.2262268066406
+Europe & Central Asia,secondary_male,2006,97.6794662475586
+Europe & Central Asia,secondary_male,2007,98.0261001586914
+Europe & Central Asia,secondary_male,2008,98.5223388671875
+Europe & Central Asia,secondary_male,2009,98.324951171875
+Europe & Central Asia,secondary_male,2010,100.144027709961
+Europe & Central Asia,secondary_male,2011,100.478637695312
+Europe & Central Asia,secondary_male,2012,99.8409881591797
+Europe & Central Asia,secondary_male,2013,104.925437927246
+Europe & Central Asia,secondary_male,2014,105.211372375488
+Europe & Central Asia,secondary_male,2015,104.927612304688
+Europe & Central Asia,secondary_male,2016,104.468139648438
+Europe & Central Asia,secondary_male,2017,105.600120544434
+Europe & Central Asia,secondary_male,2018,105.236450195312
+Europe & Central Asia,secondary_male,2019,105.186851501465
+Europe & Central Asia,secondary_male,2020,103.500381469727
+Europe & Central Asia,tertiary,2000,45.8308486938477
+Europe & Central Asia,tertiary,2001,48.1379318237305
+Europe & Central Asia,tertiary,2002,50.6971092224121
+Europe & Central Asia,tertiary,2003,53.2160682678223
+Europe & Central Asia,tertiary,2004,54.428840637207
+Europe & Central Asia,tertiary,2005,56.0824089050293
+Europe & Central Asia,tertiary,2006,57.5957984924316
+Europe & Central Asia,tertiary,2007,58.696159362793
+Europe & Central Asia,tertiary,2008,59.4951515197754
+Europe & Central Asia,tertiary,2009,60.6389389038086
+Europe & Central Asia,tertiary,2010,62.1960716247559
+Europe & Central Asia,tertiary,2011,63.1500511169434
+Europe & Central Asia,tertiary,2012,63.842960357666
+Europe & Central Asia,tertiary,2013,64.9021987915039
+Europe & Central Asia,tertiary,2014,66.4192199707031
+Europe & Central Asia,tertiary,2015,67.4049606323242
+Europe & Central Asia,tertiary,2016,68.9127578735352
+Europe & Central Asia,tertiary,2017,70.533203125
+Europe & Central Asia,tertiary,2018,72.0409393310547
+Europe & Central Asia,tertiary,2019,73.6700897216797
+Europe & Central Asia,tertiary,2020,75.6536102294922
+Europe & Central Asia,tertiary_female,2000,48.9057807922363
+Europe & Central Asia,tertiary_female,2001,51.7429389953613
+Europe & Central Asia,tertiary_female,2002,55.0972709655762
+Europe & Central Asia,tertiary_female,2003,57.754581451416
+Europe & Central Asia,tertiary_female,2004,59.5210418701172
+Europe & Central Asia,tertiary_female,2005,61.4848594665527
+Europe & Central Asia,tertiary_female,2006,63.2125396728516
+Europe & Central Asia,tertiary_female,2007,64.4557113647461
+Europe & Central Asia,tertiary_female,2008,65.518180847168
+Europe & Central Asia,tertiary_female,2009,66.7697601318359
+Europe & Central Asia,tertiary_female,2010,68.2985610961914
+Europe & Central Asia,tertiary_female,2011,69.1707077026367
+Europe & Central Asia,tertiary_female,2012,69.2602005004883
+Europe & Central Asia,tertiary_female,2013,70.0210723876953
+Europe & Central Asia,tertiary_female,2014,71.1748733520508
+Europe & Central Asia,tertiary_female,2015,72.1490936279297
+Europe & Central Asia,tertiary_female,2016,73.5627975463867
+Europe & Central Asia,tertiary_female,2017,75.3218307495117
+Europe & Central Asia,tertiary_female,2018,77.1048889160156
+Europe & Central Asia,tertiary_female,2019,79.2811431884766
+Europe & Central Asia,tertiary_female,2020,81.7511596679688
+Europe & Central Asia,tertiary_male,2000,42.8368492126465
+Europe & Central Asia,tertiary_male,2001,44.6310615539551
+Europe & Central Asia,tertiary_male,2002,46.4190711975098
+Europe & Central Asia,tertiary_male,2003,48.802619934082
+Europe & Central Asia,tertiary_male,2004,49.4746017456055
+Europe & Central Asia,tertiary_male,2005,50.8210601806641
+Europe & Central Asia,tertiary_male,2006,52.1235885620117
+Europe & Central Asia,tertiary_male,2007,53.0815811157227
+Europe & Central Asia,tertiary_male,2008,53.6382293701172
+Europe & Central Asia,tertiary_male,2009,54.6947784423828
+Europe & Central Asia,tertiary_male,2010,56.2924613952637
+Europe & Central Asia,tertiary_male,2011,57.3385200500488
+Europe & Central Asia,tertiary_male,2012,58.6180191040039
+Europe & Central Asia,tertiary_male,2013,59.972541809082
+Europe & Central Asia,tertiary_male,2014,61.8442192077637
+Europe & Central Asia,tertiary_male,2015,62.8509292602539
+Europe & Central Asia,tertiary_male,2016,64.4709091186523
+Europe & Central Asia,tertiary_male,2017,65.9713516235352
+Europe & Central Asia,tertiary_male,2018,67.2286834716797
+Europe & Central Asia,tertiary_male,2019,68.3586196899414
+Europe & Central Asia,tertiary_male,2020,69.8929290771484
+Latin America & Caribbean,primary,2000,115.673156738281
+Latin America & Caribbean,primary,2001,114.882301330566
+Latin America & Caribbean,primary,2002,114.836166381836
+Latin America & Caribbean,primary,2003,113.822761535645
+Latin America & Caribbean,primary,2004,114.052032470703
+Latin America & Caribbean,primary,2005,113.428680419922
+Latin America & Caribbean,primary,2006,109.354698181152
+Latin America & Caribbean,primary,2007,113.001747131348
+Latin America & Caribbean,primary,2008,112.473052978516
+Latin America & Caribbean,primary,2009,112.463836669922
+Latin America & Caribbean,primary,2010,111.409637451172
+Latin America & Caribbean,primary,2011,110.549781799316
+Latin America & Caribbean,primary,2012,109.402587890625
+Latin America & Caribbean,primary,2013,110.243026733398
+Latin America & Caribbean,primary,2014,109.37109375
+Latin America & Caribbean,primary,2015,108.312019348145
+Latin America & Caribbean,primary,2016,107.620933532715
+Latin America & Caribbean,primary,2017,107.052093505859
+Latin America & Caribbean,primary,2018,106.677040100098
+Latin America & Caribbean,primary,2019,106.588180541992
+Latin America & Caribbean,primary,2020,105.879936218262
+Latin America & Caribbean,primary_female,2000,114.087532043457
+Latin America & Caribbean,primary_female,2001,113.437812805176
+Latin America & Caribbean,primary_female,2002,113.424621582031
+Latin America & Caribbean,primary_female,2003,112.426338195801
+Latin America & Caribbean,primary_female,2004,112.550193786621
+Latin America & Caribbean,primary_female,2005,111.835609436035
+Latin America & Caribbean,primary_female,2006,107.803619384766
+Latin America & Caribbean,primary_female,2007,111.310752868652
+Latin America & Caribbean,primary_female,2008,110.787452697754
+Latin America & Caribbean,primary_female,2009,110.74259185791
+Latin America & Caribbean,primary_female,2010,109.746353149414
+Latin America & Caribbean,primary_female,2011,108.963569641113
+Latin America & Caribbean,primary_female,2012,107.937049865723
+Latin America & Caribbean,primary_female,2013,108.787773132324
+Latin America & Caribbean,primary_female,2014,107.92903137207
+Latin America & Caribbean,primary_female,2015,107.070121765137
+Latin America & Caribbean,primary_female,2016,106.516616821289
+Latin America & Caribbean,primary_female,2017,106.149368286133
+Latin America & Caribbean,primary_female,2018,105.892723083496
+Latin America & Caribbean,primary_female,2019,105.835441589355
+Latin America & Caribbean,primary_female,2020,104.964401245117
+Latin America & Caribbean,primary_male,2000,117.201438903809
+Latin America & Caribbean,primary_male,2001,116.273826599121
+Latin America & Caribbean,primary_male,2002,116.195343017578
+Latin America & Caribbean,primary_male,2003,115.166839599609
+Latin America & Caribbean,primary_male,2004,115.497138977051
+Latin America & Caribbean,primary_male,2005,114.960998535156
+Latin America & Caribbean,primary_male,2006,110.84635925293
+Latin America & Caribbean,primary_male,2007,114.627769470215
+Latin America & Caribbean,primary_male,2008,114.093650817871
+Latin America & Caribbean,primary_male,2009,114.118270874023
+Latin America & Caribbean,primary_male,2010,113.007751464844
+Latin America & Caribbean,primary_male,2011,112.0732421875
+Latin America & Caribbean,primary_male,2012,110.809478759766
+Latin America & Caribbean,primary_male,2013,111.644371032715
+Latin America & Caribbean,primary_male,2014,110.76065826416
+Latin America & Caribbean,primary_male,2015,109.505928039551
+Latin America & Caribbean,primary_male,2016,108.681587219238
+Latin America & Caribbean,primary_male,2017,107.916458129883
+Latin America & Caribbean,primary_male,2018,107.42845916748
+Latin America & Caribbean,primary_male,2019,107.310577392578
+Latin America & Caribbean,primary_male,2020,106.762519836426
+Latin America & Caribbean,secondary,2000,79.3801193237305
+Latin America & Caribbean,secondary,2001,80.5385513305664
+Latin America & Caribbean,secondary,2002,87.1760711669922
+Latin America & Caribbean,secondary,2003,84.6531219482422
+Latin America & Caribbean,secondary,2004,86.362663269043
+Latin America & Caribbean,secondary,2005,86.6360015869141
+Latin America & Caribbean,secondary,2006,84.9996795654297
+Latin America & Caribbean,secondary,2007,86.1367721557617
+Latin America & Caribbean,secondary,2008,87.2585601806641
+Latin America & Caribbean,secondary,2009,88.1930999755859
+Latin America & Caribbean,secondary,2010,89.2363967895508
+Latin America & Caribbean,secondary,2011,89.7034530639648
+Latin America & Caribbean,secondary,2012,89.8471908569336
+Latin America & Caribbean,secondary,2013,94.7633285522461
+Latin America & Caribbean,secondary,2014,94.8695373535156
+Latin America & Caribbean,secondary,2015,95.0755462646484
+Latin America & Caribbean,secondary,2016,96.088623046875
+Latin America & Caribbean,secondary,2017,96.5442810058594
+Latin America & Caribbean,secondary,2018,97.567138671875
+Latin America & Caribbean,secondary,2019,97.6430587768555
+Latin America & Caribbean,secondary,2020,97.1172180175781
+Latin America & Caribbean,secondary_female,2000,81.7892074584961
+Latin America & Caribbean,secondary_female,2001,83.0510101318359
+Latin America & Caribbean,secondary_female,2002,90.0146865844727
+Latin America & Caribbean,secondary_female,2003,87.7489395141602
+Latin America & Caribbean,secondary_female,2004,89.4052276611328
+Latin America & Caribbean,secondary_female,2005,89.802131652832
+Latin America & Caribbean,secondary_female,2006,88.2992324829102
+Latin America & Caribbean,secondary_female,2007,89.54833984375
+Latin America & Caribbean,secondary_female,2008,90.7860565185547
+Latin America & Caribbean,secondary_female,2009,91.6666488647461
+Latin America & Caribbean,secondary_female,2010,92.5485076904297
+Latin America & Caribbean,secondary_female,2011,92.8820495605469
+Latin America & Caribbean,secondary_female,2012,92.7997589111328
+Latin America & Caribbean,secondary_female,2013,97.5087127685547
+Latin America & Caribbean,secondary_female,2014,97.6046905517578
+Latin America & Caribbean,secondary_female,2015,97.6465072631836
+Latin America & Caribbean,secondary_female,2016,98.4324188232422
+Latin America & Caribbean,secondary_female,2017,98.6545333862305
+Latin America & Caribbean,secondary_female,2018,99.8022918701172
+Latin America & Caribbean,secondary_female,2019,100.104858398438
+Latin America & Caribbean,secondary_female,2020,99.7190017700195
+Latin America & Caribbean,secondary_male,2000,77.0258331298828
+Latin America & Caribbean,secondary_male,2001,78.0848236083984
+Latin America & Caribbean,secondary_male,2002,84.4059371948242
+Latin America & Caribbean,secondary_male,2003,81.6343002319336
+Latin America & Caribbean,secondary_male,2004,83.3975677490234
+Latin America & Caribbean,secondary_male,2005,83.5519638061523
+Latin America & Caribbean,secondary_male,2006,81.787467956543
+Latin America & Caribbean,secondary_male,2007,82.8174591064453
+Latin America & Caribbean,secondary_male,2008,83.8287887573242
+Latin America & Caribbean,secondary_male,2009,84.8180770874023
+Latin America & Caribbean,secondary_male,2010,86.0204162597656
+Latin America & Caribbean,secondary_male,2011,86.619270324707
+Latin America & Caribbean,secondary_male,2012,86.984001159668
+Latin America & Caribbean,secondary_male,2013,92.1076507568359
+Latin America & Caribbean,secondary_male,2014,92.2357330322266
+Latin America & Caribbean,secondary_male,2015,92.6001586914062
+Latin America & Caribbean,secondary_male,2016,93.831657409668
+Latin America & Caribbean,secondary_male,2017,94.5117568969727
+Latin America & Caribbean,secondary_male,2018,95.4137268066406
+Latin America & Caribbean,secondary_male,2019,95.2773132324219
+Latin America & Caribbean,secondary_male,2020,94.6235809326172
+Latin America & Caribbean,tertiary,2000,23.8176708221436
+Latin America & Caribbean,tertiary,2001,25.2762908935547
+Latin America & Caribbean,tertiary,2002,27.1014404296875
+Latin America & Caribbean,tertiary,2003,28.6692295074463
+Latin America & Caribbean,tertiary,2004,30.1274299621582
+Latin America & Caribbean,tertiary,2005,31.8272495269775
+Latin America & Caribbean,tertiary,2006,38.6138916015625
+Latin America & Caribbean,tertiary,2007,36.3547286987305
+Latin America & Caribbean,tertiary,2008,39.265079498291
+Latin America & Caribbean,tertiary,2009,40.250301361084
+Latin America & Caribbean,tertiary,2010,41.7594985961914
+Latin America & Caribbean,tertiary,2011,43.2492713928223
+Latin America & Caribbean,tertiary,2012,44.429859161377
+Latin America & Caribbean,tertiary,2013,45.4711112976074
+Latin America & Caribbean,tertiary,2014,47.1078109741211
+Latin America & Caribbean,tertiary,2015,48.3956489562988
+Latin America & Caribbean,tertiary,2016,50.3843383789062
+Latin America & Caribbean,tertiary,2017,51.7569198608398
+Latin America & Caribbean,tertiary,2018,52.4460487365723
+Latin America & Caribbean,tertiary,2019,53.3577194213867
+Latin America & Caribbean,tertiary,2020,54.8686599731445
+Latin America & Caribbean,tertiary_female,2000,25.7670402526856
+Latin America & Caribbean,tertiary_female,2001,27.2950191497803
+Latin America & Caribbean,tertiary_female,2002,29.3838195800781
+Latin America & Caribbean,tertiary_female,2003,31.1989707946777
+Latin America & Caribbean,tertiary_female,2004,32.8613395690918
+Latin America & Caribbean,tertiary_female,2005,34.7931289672852
+Latin America & Caribbean,tertiary_female,2006,42.713680267334
+Latin America & Caribbean,tertiary_female,2007,40.501091003418
+Latin America & Caribbean,tertiary_female,2008,43.8180084228516
+Latin America & Caribbean,tertiary_female,2009,45.2948799133301
+Latin America & Caribbean,tertiary_female,2010,46.9485702514648
+Latin America & Caribbean,tertiary_female,2011,48.682430267334
+Latin America & Caribbean,tertiary_female,2012,50.1114196777344
+Latin America & Caribbean,tertiary_female,2013,51.3348808288574
+Latin America & Caribbean,tertiary_female,2014,53.226261138916
+Latin America & Caribbean,tertiary_female,2015,54.5983505249023
+Latin America & Caribbean,tertiary_female,2016,56.9438400268555
+Latin America & Caribbean,tertiary_female,2017,58.6132698059082
+Latin America & Caribbean,tertiary_female,2018,59.5662803649902
+Latin America & Caribbean,tertiary_female,2019,60.8130187988281
+Latin America & Caribbean,tertiary_female,2020,63.2403602600098
+Latin America & Caribbean,tertiary_male,2000,21.8702697753906
+Latin America & Caribbean,tertiary_male,2001,23.2590293884277
+Latin America & Caribbean,tertiary_male,2002,24.8216705322266
+Latin America & Caribbean,tertiary_male,2003,26.1452007293701
+Latin America & Caribbean,tertiary_male,2004,27.4027900695801
+Latin America & Caribbean,tertiary_male,2005,28.8745594024658
+Latin America & Caribbean,tertiary_male,2006,34.5359687805176
+Latin America & Caribbean,tertiary_male,2007,32.2349395751953
+Latin America & Caribbean,tertiary_male,2008,34.7485809326172
+Latin America & Caribbean,tertiary_male,2009,35.2543792724609
+Latin America & Caribbean,tertiary_male,2010,36.6310997009277
+Latin America & Caribbean,tertiary_male,2011,37.8918304443359
+Latin America & Caribbean,tertiary_male,2012,38.8389282226562
+Latin America & Caribbean,tertiary_male,2013,39.711368560791
+Latin America & Caribbean,tertiary_male,2014,41.1029510498047
+Latin America & Caribbean,tertiary_male,2015,42.2983283996582
+Latin America & Caribbean,tertiary_male,2016,43.971378326416
+Latin America & Caribbean,tertiary_male,2017,45.056568145752
+Latin America & Caribbean,tertiary_male,2018,45.5169906616211
+Latin America & Caribbean,tertiary_male,2019,46.0976600646973
+Latin America & Caribbean,tertiary_male,2020,46.7835006713867
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2000,81.6360168457031
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2001,82.1723785400391
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2002,85.4851226806641
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2003,87.835578918457
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2004,89.8461380004883
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2005,90.0650177001953
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2006,89.3588027954102
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2007,90.2111282348633
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2008,90.2114562988281
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2009,90.0345687866211
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2010,90.8270492553711
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2011,89.3950119018555
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2012,90.349983215332
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2013,89.1839981079102
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2014,89.1339874267578
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2015,88.7086563110352
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2016,90.1161422729492
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2017,89.8634033203125
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2018,91.0566864013672
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2019,91.8066787719727
+"Middle East, North Africa, Afghanistan & Pakistan",primary,2020,92.2091598510742
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2000,73.5991897583008
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2001,74.3718872070312
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2002,77.538459777832
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2003,80.482048034668
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2004,81.4969024658203
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2005,83.1373977661133
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2006,83.0524291992188
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2007,84.4511184692383
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2008,84.7155609130859
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2009,84.7839202880859
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2010,85.6047973632812
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2011,84.3953704833984
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2012,85.7546997070312
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2013,84.7892837524414
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2014,84.6228103637695
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2015,84.2598876953125
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2016,85.6565399169922
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2017,85.4988632202148
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2018,86.2686767578125
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2019,87.5190124511719
+"Middle East, North Africa, Afghanistan & Pakistan",primary_female,2020,87.9372711181641
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2000,89.230110168457
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2001,89.5363616943359
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2002,92.9815902709961
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2003,94.7650680541992
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2004,97.7056579589844
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2005,96.5839691162109
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2006,95.2919387817383
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2007,95.6294784545898
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2008,95.3851165771484
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2009,94.9835968017578
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2010,95.7525634765625
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2011,94.1135025024414
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2012,94.6921768188477
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2013,93.3411865234375
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2014,93.4069671630859
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2015,92.9269332885742
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2016,94.3462219238281
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2017,94.006706237793
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2018,95.6059265136719
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2019,95.885856628418
+"Middle East, North Africa, Afghanistan & Pakistan",primary_male,2020,96.2761535644531
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2000,50.2143783569336
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2001,50.4005889892578
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2002,50.4098815917969
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2003,50.7011184692383
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2004,51.7388687133789
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2005,51.4207801818848
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2006,53.4668083190918
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2007,53.3521614074707
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2008,53.9880104064941
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2009,54.9664688110352
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2010,55.212589263916
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2011,56.6907615661621
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2012,57.1146392822266
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2013,55.8841400146484
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2014,56.3870697021484
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2015,57.3701782226562
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2016,58.2178192138672
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2017,58.3111190795898
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2018,59.3685111999512
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2019,60.1695289611816
+"Middle East, North Africa, Afghanistan & Pakistan",secondary,2020,60.7267608642578
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2000,46.2440986633301
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2001,46.6951484680176
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2002,47.1025695800781
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2003,47.8145904541016
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2004,48.8658218383789
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2005,48.9622802734375
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2006,50.9403991699219
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2007,50.944751739502
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2008,51.2119216918945
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2009,52.2615699768066
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2010,52.1970100402832
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2011,53.5247993469238
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2012,53.5537109375
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2013,52.0718307495117
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2014,53.0181198120117
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2015,53.8907585144043
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2016,54.9065208435059
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2017,55.0110015869141
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2018,56.3839988708496
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2019,57.3141708374023
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_female,2020,57.9312705993652
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2000,53.9787406921387
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2001,53.9108581542969
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2002,53.5396499633789
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2003,53.4285697937012
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2004,54.4437103271484
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2005,53.7279281616211
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2006,55.8316192626953
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2007,55.6021614074707
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2008,56.5848083496094
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2009,57.4981384277344
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2010,58.0367393493652
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2011,59.6579399108887
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2012,60.4610214233398
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2013,59.4739685058594
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2014,59.5642013549805
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2015,60.6552085876465
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2016,61.3469200134277
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2017,61.4325103759766
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2018,62.1939811706543
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2019,62.8768005371094
+"Middle East, North Africa, Afghanistan & Pakistan",secondary_male,2020,63.3805999755859
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2000,13.556619644165
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2001,13.9357404708862
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2002,14.1848001480103
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2003,14.3840999603272
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2004,15.3665399551392
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2005,16.4484596252441
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2006,17.0407199859619
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2007,18.2272891998291
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2008,19.4375705718994
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2009,20.1668605804443
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2010,21.461669921875
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2011,21.9487991333008
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2012,23.6090698242188
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2013,24.6868095397949
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2014,26.2296390533447
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2015,27.3493404388428
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2016,27.0987300872803
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2017,27.2971000671387
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2018,27.1299304962158
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2019,27.9685897827148
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary,2020,28.3051891326904
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2000,12.7742900848389
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2001,13.3735504150391
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2002,13.8648300170898
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2003,14.4425601959228
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2004,15.3806295394897
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2005,16.6329402923584
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2006,17.4537601470947
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2007,18.5128192901611
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2008,20.3561496734619
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2009,20.8137607574463
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2010,21.9949893951416
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2011,22.6371307373047
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2012,24.2461700439453
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2013,25.056209564209
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2014,26.5790405273438
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2015,27.3423900604248
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2016,27.3845596313477
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2017,27.428840637207
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2018,27.5954303741455
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2019,28.7565402984619
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_female,2020,29.1186408996582
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2000,14.275110244751
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2001,14.4536504745483
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2002,14.4804000854492
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2003,14.3299198150635
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2004,15.3534898757935
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2005,16.2777595520019
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2006,16.6590900421143
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2007,17.9637699127197
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2008,18.5901699066162
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2009,19.5717601776123
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2010,20.9709892272949
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2011,21.3151702880859
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2012,23.0214500427246
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2013,24.3455009460449
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2014,25.9064102172852
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2015,27.355770111084
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2016,26.8332004547119
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2017,27.1741409301758
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2018,26.6941795349121
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2019,27.2290000915527
+"Middle East, North Africa, Afghanistan & Pakistan",tertiary_male,2020,27.5415992736816
+North America,primary,2000,100.612289428711
+North America,primary,2001,100.225708007812
+North America,primary,2002,99.8392486572266
+North America,primary,2003,100.462753295898
+North America,primary,2004,101.086837768555
+North America,primary,2005,101.58113861084
+North America,primary,2006,101.985366821289
+North America,primary,2007,102.440528869629
+North America,primary,2008,102.839820861816
+North America,primary,2009,101.993896484375
+North America,primary,2010,101.326446533203
+North America,primary,2011,100.648773193359
+North America,primary,2012,100.091178894043
+North America,primary,2013,99.4497604370117
+North America,primary,2014,99.6610717773438
+North America,primary,2015,100.262733459473
+North America,primary,2016,101.118087768555
+North America,primary,2017,101.538818359375
+North America,primary,2018,101.022567749023
+North America,primary,2019,100.633087158203
+North America,primary,2020,99.9889068603516
+North America,primary_female,2000,99.8882522583008
+North America,primary_female,2001,100.077743530273
+North America,primary_female,2002,100.252616882324
+North America,primary_female,2003,100.53507232666
+North America,primary_female,2004,100.813980102539
+North America,primary_female,2005,101.035682678223
+North America,primary_female,2006,102.319259643555
+North America,primary_female,2007,102.672836303711
+North America,primary_female,2008,102.929977416992
+North America,primary_female,2009,102.190856933594
+North America,primary_female,2010,101.394348144531
+North America,primary_female,2011,100.56037902832
+North America,primary_female,2012,99.8515014648438
+North America,primary_female,2013,99.0651397705078
+North America,primary_female,2014,99.4989166259766
+North America,primary_female,2015,100.225479125977
+North America,primary_female,2016,100.98323059082
+North America,primary_female,2017,101.12825012207
+North America,primary_female,2018,100.943603515625
+North America,primary_female,2019,100.957489013672
+North America,primary_female,2020,99.7670288085938
+North America,primary_male,2000,101.301910400391
+North America,primary_male,2001,100.366630554199
+North America,primary_male,2002,99.4455413818359
+North America,primary_male,2003,100.393829345703
+North America,primary_male,2004,101.347076416016
+North America,primary_male,2005,102.101379394531
+North America,primary_male,2006,101.66667175293
+North America,primary_male,2007,102.218772888184
+North America,primary_male,2008,102.753692626953
+North America,primary_male,2009,101.805603027344
+North America,primary_male,2010,101.261520385742
+North America,primary_male,2011,100.733329772949
+North America,primary_male,2012,100.320579528809
+North America,primary_male,2013,99.8180694580078
+North America,primary_male,2014,99.8163681030273
+North America,primary_male,2015,100.298439025879
+North America,primary_male,2016,101.247512817383
+North America,primary_male,2017,101.932579040527
+North America,primary_male,2018,101.098213195801
+North America,primary_male,2019,100.32250213623
+North America,primary_male,2020,100.201202392578
+North America,secondary,2000,94.7886123657227
+North America,secondary,2001,94.9030380249023
+North America,secondary,2002,95.0205230712891
+North America,secondary,2003,95.3165664672852
+North America,secondary,2004,95.616828918457
+North America,secondary,2005,95.5297088623047
+North America,secondary,2006,95.2538223266602
+North America,secondary,2007,95.4436721801758
+North America,secondary,2008,95.6482772827148
+North America,secondary,2009,95.9282913208008
+North America,secondary,2010,96.102783203125
+North America,secondary,2011,96.3483428955078
+North America,secondary,2012,97.2812271118164
+North America,secondary,2013,97.5258026123047
+North America,secondary,2014,98.2064819335938
+North America,secondary,2015,98.8671875
+North America,secondary,2016,99.8768997192383
+North America,secondary,2017,100.074882507324
+North America,secondary,2018,100.359298706055
+North America,secondary,2019,101.014846801758
+North America,secondary,2020,101.317161560059
+North America,secondary_female,2000,95.5698165893555
+North America,secondary_female,2001,95.1561889648438
+North America,secondary_female,2002,94.7082214355469
+North America,secondary_female,2003,95.5795364379883
+North America,secondary_female,2004,96.4445114135742
+North America,secondary_female,2005,96.2285079956055
+North America,secondary_female,2006,94.9494400024414
+North America,secondary_female,2007,95.1765670776367
+North America,secondary_female,2008,95.4206085205078
+North America,secondary_female,2009,96.4992523193359
+North America,secondary_female,2010,96.5648193359375
+North America,secondary_female,2011,96.6986389160156
+North America,secondary_female,2012,97.5537719726562
+North America,secondary_female,2013,97.6731033325195
+North America,secondary_female,2014,98.7799606323242
+North America,secondary_female,2015,99.368782043457
+North America,secondary_female,2016,99.6349105834961
+North America,secondary_female,2017,99.8584365844727
+North America,secondary_female,2018,99.9377136230469
+North America,secondary_female,2019,100.248710632324
+North America,secondary_female,2020,100.397407531738
+North America,secondary_male,2000,94.0496597290039
+North America,secondary_male,2001,94.6635284423828
+North America,secondary_male,2002,95.3163070678711
+North America,secondary_male,2003,95.0673599243164
+North America,secondary_male,2004,94.8317718505859
+North America,secondary_male,2005,94.8664627075195
+North America,secondary_male,2006,95.5426406860352
+North America,secondary_male,2007,95.6971893310547
+North America,secondary_male,2008,95.8644332885742
+North America,secondary_male,2009,95.3859634399414
+North America,secondary_male,2010,95.6637802124023
+North America,secondary_male,2011,96.0153121948242
+North America,secondary_male,2012,97.0218200683594
+North America,secondary_male,2013,97.385498046875
+North America,secondary_male,2014,97.6594390869141
+North America,secondary_male,2015,98.3874969482422
+North America,secondary_male,2016,100.108619689941
+North America,secondary_male,2017,100.282279968262
+North America,secondary_male,2018,100.763641357422
+North America,secondary_male,2019,101.749588012695
+North America,secondary_male,2020,102.198707580566
+North America,tertiary,2000,66.9040679931641
+North America,tertiary,2001,71.4756927490234
+North America,tertiary,2002,76.0470504760742
+North America,tertiary,2003,77.6200637817383
+North America,tertiary,2004,79.1845626831055
+North America,tertiary,2005,78.8173599243164
+North America,tertiary,2006,81.1328964233398
+North America,tertiary,2007,82.1136093139648
+North America,tertiary,2008,83.0399475097656
+North America,tertiary,2009,85.34716796875
+North America,tertiary,2010,85.4238433837891
+North America,tertiary,2011,85.7931976318359
+North America,tertiary,2012,86.0814895629883
+North America,tertiary,2013,86.5340118408203
+North America,tertiary,2014,86.5686874389648
+North America,tertiary,2015,86.8131408691406
+North America,tertiary,2016,86.9502792358398
+North America,tertiary,2017,86.4250564575195
+North America,tertiary,2018,86.4270935058594
+North America,tertiary,2019,86.4167633056641
+North America,tertiary,2020,86.3354034423828
+North America,tertiary_female,2000,76.4307632446289
+North America,tertiary_female,2001,82.1066284179688
+North America,tertiary_female,2002,87.907356262207
+North America,tertiary_female,2003,90.4060592651367
+North America,tertiary_female,2004,92.8610534667969
+North America,tertiary_female,2005,92.936653137207
+North America,tertiary_female,2006,95.8585510253906
+North America,tertiary_female,2007,96.7256011962891
+North America,tertiary_female,2008,97.4585494995117
+North America,tertiary_female,2009,99.9669570922852
+North America,tertiary_female,2010,99.6065216064453
+North America,tertiary_female,2011,99.7432708740234
+North America,tertiary_female,2012,100.043838500977
+North America,tertiary_female,2013,100.530166625977
+North America,tertiary_female,2014,100.259368896484
+North America,tertiary_female,2015,100.443840026855
+North America,tertiary_female,2016,100.247413635254
+North America,tertiary_female,2017,100.083770751953
+North America,tertiary_female,2018,100.249130249023
+North America,tertiary_female,2019,100.672393798828
+North America,tertiary_female,2020,101.383178710938
+North America,tertiary_male,2000,57.8130683898926
+North America,tertiary_male,2001,61.3481216430664
+North America,tertiary_male,2002,64.7836685180664
+North America,tertiary_male,2003,65.5049896240234
+North America,tertiary_male,2004,66.2379608154297
+North America,tertiary_male,2005,65.5176696777344
+North America,tertiary_male,2006,67.2619400024414
+North America,tertiary_male,2007,68.3096313476562
+North America,tertiary_male,2008,69.3587112426758
+North America,tertiary_male,2009,71.4303817749023
+North America,tertiary_male,2010,71.8752899169922
+North America,tertiary_male,2011,72.4552536010742
+North America,tertiary_male,2012,72.790168762207
+North America,tertiary_male,2013,73.2615127563477
+North America,tertiary_male,2014,73.6229476928711
+North America,tertiary_male,2015,73.9246673583984
+North America,tertiary_male,2016,74.3622970581055
+North America,tertiary_male,2017,73.4658279418945
+North America,tertiary_male,2018,73.2824096679688
+North America,tertiary_male,2019,72.8285293579102
+North America,tertiary_male,2020,71.9706726074219
+South Asia,primary,2000,98.6156616210938
+South Asia,primary,2001,96.9547424316406
+South Asia,primary,2002,97.6312637329102
+South Asia,primary,2003,104.661209106445
+South Asia,primary,2004,106.247352600098
+South Asia,primary,2005,107.856147766113
+South Asia,primary,2006,109.757987976074
+South Asia,primary,2007,111.125106811523
+South Asia,primary,2008,111.084480285645
+South Asia,primary,2009,110.484977722168
+South Asia,primary,2010,110.696907043457
+South Asia,primary,2011,109.978492736816
+South Asia,primary,2012,111.911849975586
+South Asia,primary,2013,113.485366821289
+South Asia,primary,2014,111.840263366699
+South Asia,primary,2015,112.902671813965
+South Asia,primary,2016,118.426078796387
+South Asia,primary,2017,117.016357421875
+South Asia,primary,2018,102.812812805176
+South Asia,primary,2019,101.631233215332
+South Asia,primary,2020,103.280586242676
+South Asia,primary_female,2000,90.7817611694336
+South Asia,primary_female,2001,89.8244705200195
+South Asia,primary_female,2002,91.4004211425781
+South Asia,primary_female,2003,103.012718200684
+South Asia,primary_female,2004,104.827087402344
+South Asia,primary_female,2005,106.614097595215
+South Asia,primary_female,2006,108.712730407715
+South Asia,primary_female,2007,110.277618408203
+South Asia,primary_female,2008,111.527122497559
+South Asia,primary_female,2009,111.493598937988
+South Asia,primary_female,2010,111.635032653809
+South Asia,primary_female,2011,110.736312866211
+South Asia,primary_female,2012,112.880928039551
+South Asia,primary_female,2013,118.245338439941
+South Asia,primary_female,2014,116.499183654785
+South Asia,primary_female,2015,117.874382019043
+South Asia,primary_female,2016,125.894309997559
+South Asia,primary_female,2017,123.896423339844
+South Asia,primary_female,2018,103.795127868652
+South Asia,primary_female,2019,102.679130554199
+South Asia,primary_female,2020,104.399757385254
+South Asia,primary_male,2000,105.863059997559
+South Asia,primary_male,2001,103.536903381348
+South Asia,primary_male,2002,103.367172241211
+South Asia,primary_male,2003,106.175071716309
+South Asia,primary_male,2004,107.548789978027
+South Asia,primary_male,2005,108.992553710938
+South Asia,primary_male,2006,110.713470458984
+South Asia,primary_male,2007,111.899429321289
+South Asia,primary_male,2008,110.68009185791
+South Asia,primary_male,2009,109.56339263916
+South Asia,primary_male,2010,109.839698791504
+South Asia,primary_male,2011,109.279220581055
+South Asia,primary_male,2012,111.017311096191
+South Asia,primary_male,2013,109.091049194336
+South Asia,primary_male,2014,107.539199829102
+South Asia,primary_male,2015,108.312271118164
+South Asia,primary_male,2016,111.530349731445
+South Asia,primary_male,2017,110.663162231445
+South Asia,primary_male,2018,101.906433105469
+South Asia,primary_male,2019,100.665252685547
+South Asia,primary_male,2020,102.249938964844
+South Asia,secondary,2000,47.5083808898926
+South Asia,secondary,2001,47.4841194152832
+South Asia,secondary,2002,49.3626518249512
+South Asia,secondary,2003,51.5610618591309
+South Asia,secondary,2004,52.7400093078613
+South Asia,secondary,2005,54.9015197753906
+South Asia,secondary,2006,55.623348236084
+South Asia,secondary,2007,57.7001304626465
+South Asia,secondary,2008,60.2229614257812
+South Asia,secondary,2009,59.9533882141113
+South Asia,secondary,2010,63.2981491088867
+South Asia,secondary,2011,65.2862091064453
+South Asia,secondary,2012,67.8703536987305
+South Asia,secondary,2013,68.1029891967773
+South Asia,secondary,2014,72.9314117431641
+South Asia,secondary,2015,72.9351806640625
+South Asia,secondary,2016,74.687141418457
+South Asia,secondary,2017,73.4670028686523
+South Asia,secondary,2018,75.0400314331055
+South Asia,secondary,2019,74.9521636962891
+South Asia,secondary,2020,77.0081481933594
+South Asia,secondary_female,2000,40.5729293823242
+South Asia,secondary_female,2001,40.8564796447754
+South Asia,secondary_female,2002,43.2442016601562
+South Asia,secondary_female,2003,46.8258094787598
+South Asia,secondary_female,2004,47.6684112548828
+South Asia,secondary_female,2005,50.1592597961426
+South Asia,secondary_female,2006,51.1434783935547
+South Asia,secondary_female,2007,53.7980499267578
+South Asia,secondary_female,2008,57.021728515625
+South Asia,secondary_female,2009,57.7675285339355
+South Asia,secondary_female,2010,61.3690986633301
+South Asia,secondary_female,2011,63.5410003662109
+South Asia,secondary_female,2012,66.3012619018555
+South Asia,secondary_female,2013,68.1774368286133
+South Asia,secondary_female,2014,73.1499404907227
+South Asia,secondary_female,2015,73.1828765869141
+South Asia,secondary_female,2016,74.9855804443359
+South Asia,secondary_female,2017,73.732780456543
+South Asia,secondary_female,2018,75.2186279296875
+South Asia,secondary_female,2019,75.2787170410156
+South Asia,secondary_female,2020,76.702880859375
+South Asia,secondary_male,2000,53.9573287963867
+South Asia,secondary_male,2001,53.6548805236816
+South Asia,secondary_male,2002,55.0567817687988
+South Asia,secondary_male,2003,55.9646492004395
+South Asia,secondary_male,2004,57.4509315490723
+South Asia,secondary_male,2005,59.2994194030762
+South Asia,secondary_male,2006,59.7690696716309
+South Asia,secondary_male,2007,61.3017196655273
+South Asia,secondary_male,2008,63.1694297790527
+South Asia,secondary_male,2009,61.9600715637207
+South Asia,secondary_male,2010,65.0650787353516
+South Asia,secondary_male,2011,66.897331237793
+South Asia,secondary_male,2012,69.3172912597656
+South Asia,secondary_male,2013,68.0343475341797
+South Asia,secondary_male,2014,72.7299270629883
+South Asia,secondary_male,2015,72.7067718505859
+South Asia,secondary_male,2016,74.4118423461914
+South Asia,secondary_male,2017,73.2217025756836
+South Asia,secondary_male,2018,74.8747100830078
+South Asia,secondary_male,2019,74.6493835449219
+South Asia,secondary_male,2020,77.2911834716797
+South Asia,tertiary,2000,9.22157001495361
+South Asia,tertiary,2001,9.43124008178711
+South Asia,tertiary,2002,9.87176036834717
+South Asia,tertiary,2003,10.3095397949219
+South Asia,tertiary,2004,10.5721397399902
+South Asia,tertiary,2005,10.4651298522949
+South Asia,tertiary,2006,11.3078498840332
+South Asia,tertiary,2007,12.8670997619629
+South Asia,tertiary,2008,14.7031297683716
+South Asia,tertiary,2009,15.8038501739502
+South Asia,tertiary,2010,17.6207408905029
+South Asia,tertiary,2011,21.8057098388672
+South Asia,tertiary,2012,23.1186695098877
+South Asia,tertiary,2013,22.6903400421143
+South Asia,tertiary,2014,24.041389465332
+South Asia,tertiary,2015,25.3642196655273
+South Asia,tertiary,2016,25.5159492492676
+South Asia,tertiary,2017,26.079870223999
+South Asia,tertiary,2018,26.8766307830811
+South Asia,tertiary,2019,27.6625595092773
+South Asia,tertiary,2020,28.2194099426269
+South Asia,tertiary_female,2000,7.15493011474609
+South Asia,tertiary_female,2001,7.48057985305786
+South Asia,tertiary_female,2002,7.88865995407104
+South Asia,tertiary_female,2003,8.12996006011963
+South Asia,tertiary_female,2004,8.3007698059082
+South Asia,tertiary_female,2005,8.50257015228271
+South Asia,tertiary_female,2006,9.31194972991943
+South Asia,tertiary_female,2007,10.4211397171021
+South Asia,tertiary_female,2008,11.946310043335
+South Asia,tertiary_female,2009,12.9097204208374
+South Asia,tertiary_female,2010,14.6814298629761
+South Asia,tertiary_female,2011,18.8380107879639
+South Asia,tertiary_female,2012,21.2051601409912
+South Asia,tertiary_female,2013,21.5296096801758
+South Asia,tertiary_female,2014,23.3754005432129
+South Asia,tertiary_female,2015,24.7449493408203
+South Asia,tertiary_female,2016,24.9898300170898
+South Asia,tertiary_female,2017,25.8752498626709
+South Asia,tertiary_female,2018,26.9306297302246
+South Asia,tertiary_female,2019,28.1575508117676
+South Asia,tertiary_female,2020,28.9023704528809
+South Asia,tertiary_male,2000,11.145489692688
+South Asia,tertiary_male,2001,11.2497797012329
+South Asia,tertiary_male,2002,11.7205495834351
+South Asia,tertiary_male,2003,12.3424501419067
+South Asia,tertiary_male,2004,12.6921195983887
+South Asia,tertiary_male,2005,12.2974395751953
+South Asia,tertiary_male,2006,13.1710596084595
+South Asia,tertiary_male,2007,15.1505403518677
+South Asia,tertiary_male,2008,17.2766799926758
+South Asia,tertiary_male,2009,18.5039100646973
+South Asia,tertiary_male,2010,20.3601303100586
+South Asia,tertiary_male,2011,24.5946197509766
+South Asia,tertiary_male,2012,24.912130355835
+South Asia,tertiary_male,2013,23.7743797302246
+South Asia,tertiary_male,2014,24.6612796783447
+South Asia,tertiary_male,2015,25.9389705657959
+South Asia,tertiary_male,2016,26.0030899047852
+South Asia,tertiary_male,2017,26.2690696716309
+South Asia,tertiary_male,2018,26.8265399932861
+South Asia,tertiary_male,2019,27.2016696929932
+South Asia,tertiary_male,2020,27.5806503295898
+Sub-Saharan Africa,primary,2000,79.4738082885742
+Sub-Saharan Africa,primary,2001,81.3402481079102
+Sub-Saharan Africa,primary,2002,83.4894866943359
+Sub-Saharan Africa,primary,2003,85.9780197143555
+Sub-Saharan Africa,primary,2004,87.9946899414062
+Sub-Saharan Africa,primary,2005,90.3313522338867
+Sub-Saharan Africa,primary,2006,92.0808029174805
+Sub-Saharan Africa,primary,2007,92.9380798339844
+Sub-Saharan Africa,primary,2008,94.1902084350586
+Sub-Saharan Africa,primary,2009,94.5845794677734
+Sub-Saharan Africa,primary,2010,94.4356536865234
+Sub-Saharan Africa,primary,2011,95.7367477416992
+Sub-Saharan Africa,primary,2012,96.5240173339844
+Sub-Saharan Africa,primary,2013,96.5599136352539
+Sub-Saharan Africa,primary,2014,96.1997222900391
+Sub-Saharan Africa,primary,2015,94.6371231079102
+Sub-Saharan Africa,primary,2016,94.8517684936523
+Sub-Saharan Africa,primary,2017,95.3999404907227
+Sub-Saharan Africa,primary,2018,96.1621475219727
+Sub-Saharan Africa,primary,2019,97.0975570678711
+Sub-Saharan Africa,primary,2020,97.9075698852539
+Sub-Saharan Africa,primary_female,2000,73.0617523193359
+Sub-Saharan Africa,primary_female,2001,75.1246566772461
+Sub-Saharan Africa,primary_female,2002,77.0870208740234
+Sub-Saharan Africa,primary_female,2003,79.7613372802734
+Sub-Saharan Africa,primary_female,2004,82.0270690917969
+Sub-Saharan Africa,primary_female,2005,84.668571472168
+Sub-Saharan Africa,primary_female,2006,86.9262771606445
+Sub-Saharan Africa,primary_female,2007,88.210807800293
+Sub-Saharan Africa,primary_female,2008,89.7540130615234
+Sub-Saharan Africa,primary_female,2009,90.5469284057617
+Sub-Saharan Africa,primary_female,2010,90.6984329223633
+Sub-Saharan Africa,primary_female,2011,91.8487396240234
+Sub-Saharan Africa,primary_female,2012,93.3054428100586
+Sub-Saharan Africa,primary_female,2013,93.7149963378906
+Sub-Saharan Africa,primary_female,2014,93.6550521850586
+Sub-Saharan Africa,primary_female,2015,92.4328994750977
+Sub-Saharan Africa,primary_female,2016,92.5473709106445
+Sub-Saharan Africa,primary_female,2017,93.1984634399414
+Sub-Saharan Africa,primary_female,2018,94.004997253418
+Sub-Saharan Africa,primary_female,2019,95.1917495727539
+Sub-Saharan Africa,primary_female,2020,96.1995086669922
+Sub-Saharan Africa,primary_male,2000,85.7908401489258
+Sub-Saharan Africa,primary_male,2001,87.4623718261719
+Sub-Saharan Africa,primary_male,2002,89.7938995361328
+Sub-Saharan Africa,primary_male,2003,92.0982666015625
+Sub-Saharan Africa,primary_male,2004,93.8676605224609
+Sub-Saharan Africa,primary_male,2005,95.9030532836914
+Sub-Saharan Africa,primary_male,2006,97.1519165039062
+Sub-Saharan Africa,primary_male,2007,97.589111328125
+Sub-Saharan Africa,primary_male,2008,98.554817199707
+Sub-Saharan Africa,primary_male,2009,98.5559463500977
+Sub-Saharan Africa,primary_male,2010,98.1104965209961
+Sub-Saharan Africa,primary_male,2011,99.5589218139648
+Sub-Saharan Africa,primary_male,2012,99.6873092651367
+Sub-Saharan Africa,primary_male,2013,99.3543701171875
+Sub-Saharan Africa,primary_male,2014,98.6988525390625
+Sub-Saharan Africa,primary_male,2015,96.8013381958008
+Sub-Saharan Africa,primary_male,2016,97.1134872436523
+Sub-Saharan Africa,primary_male,2017,97.5598068237305
+Sub-Saharan Africa,primary_male,2018,98.2779006958008
+Sub-Saharan Africa,primary_male,2019,98.9664001464844
+Sub-Saharan Africa,primary_male,2020,99.5822906494141
+Sub-Saharan Africa,secondary,2000,25.4356002807617
+Sub-Saharan Africa,secondary,2001,26.7454109191894
+Sub-Saharan Africa,secondary,2002,27.7354907989502
+Sub-Saharan Africa,secondary,2003,28.8454208374023
+Sub-Saharan Africa,secondary,2004,30.3758201599121
+Sub-Saharan Africa,secondary,2005,31.2892894744873
+Sub-Saharan Africa,secondary,2006,32.2884407043457
+Sub-Saharan Africa,secondary,2007,33.1736717224121
+Sub-Saharan Africa,secondary,2008,35.0536117553711
+Sub-Saharan Africa,secondary,2009,36.7800216674805
+Sub-Saharan Africa,secondary,2010,38.6372413635254
+Sub-Saharan Africa,secondary,2011,39.7799110412598
+Sub-Saharan Africa,secondary,2012,40.9930000305176
+Sub-Saharan Africa,secondary,2013,43.3622894287109
+Sub-Saharan Africa,secondary,2014,42.3408889770508
+Sub-Saharan Africa,secondary,2015,42.8760604858398
+Sub-Saharan Africa,secondary,2016,42.5216102600098
+Sub-Saharan Africa,secondary,2017,42.9023704528809
+Sub-Saharan Africa,secondary,2018,43.1964416503906
+Sub-Saharan Africa,secondary,2019,44.0328903198242
+Sub-Saharan Africa,secondary,2020,44.704761505127
+Sub-Saharan Africa,secondary_female,2000,22.6744499206543
+Sub-Saharan Africa,secondary_female,2001,23.7513294219971
+Sub-Saharan Africa,secondary_female,2002,24.2899494171143
+Sub-Saharan Africa,secondary_female,2003,25.3840808868408
+Sub-Saharan Africa,secondary_female,2004,26.6784706115723
+Sub-Saharan Africa,secondary_female,2005,27.6153392791748
+Sub-Saharan Africa,secondary_female,2006,28.4737796783447
+Sub-Saharan Africa,secondary_female,2007,29.0900192260742
+Sub-Saharan Africa,secondary_female,2008,31.1681404113769
+Sub-Saharan Africa,secondary_female,2009,32.9982681274414
+Sub-Saharan Africa,secondary_female,2010,34.9334907531738
+Sub-Saharan Africa,secondary_female,2011,36.1298713684082
+Sub-Saharan Africa,secondary_female,2012,37.7216110229492
+Sub-Saharan Africa,secondary_female,2013,40.2503395080566
+Sub-Saharan Africa,secondary_female,2014,39.3387718200684
+Sub-Saharan Africa,secondary_female,2015,39.976261138916
+Sub-Saharan Africa,secondary_female,2016,39.7697906494141
+Sub-Saharan Africa,secondary_female,2017,40.371768951416
+Sub-Saharan Africa,secondary_female,2018,40.8560485839844
+Sub-Saharan Africa,secondary_female,2019,41.8325309753418
+Sub-Saharan Africa,secondary_female,2020,42.7530403137207
+Sub-Saharan Africa,secondary_male,2000,28.1681308746338
+Sub-Saharan Africa,secondary_male,2001,29.7080307006836
+Sub-Saharan Africa,secondary_male,2002,31.1441307067871
+Sub-Saharan Africa,secondary_male,2003,32.2680892944336
+Sub-Saharan Africa,secondary_male,2004,34.0304183959961
+Sub-Saharan Africa,secondary_male,2005,34.9188613891602
+Sub-Saharan Africa,secondary_male,2006,36.0551490783691
+Sub-Saharan Africa,secondary_male,2007,37.2037010192871
+Sub-Saharan Africa,secondary_male,2008,38.8862113952637
+Sub-Saharan Africa,secondary_male,2009,40.5082511901855
+Sub-Saharan Africa,secondary_male,2010,42.2871513366699
+Sub-Saharan Africa,secondary_male,2011,43.3745613098145
+Sub-Saharan Africa,secondary_male,2012,44.2126197814941
+Sub-Saharan Africa,secondary_male,2013,46.4232292175293
+Sub-Saharan Africa,secondary_male,2014,45.2920608520508
+Sub-Saharan Africa,secondary_male,2015,45.7251205444336
+Sub-Saharan Africa,secondary_male,2016,45.2237510681152
+Sub-Saharan Africa,secondary_male,2017,45.3874015808105
+Sub-Saharan Africa,secondary_male,2018,45.4945487976074
+Sub-Saharan Africa,secondary_male,2019,46.1937217712402
+Sub-Saharan Africa,secondary_male,2020,46.6213188171387
+Sub-Saharan Africa,tertiary,2000,4.38447999954224
+Sub-Saharan Africa,tertiary,2001,4.7371997833252
+Sub-Saharan Africa,tertiary,2002,5.08393001556396
+Sub-Saharan Africa,tertiary,2003,5.46747016906738
+Sub-Saharan Africa,tertiary,2004,5.72870016098022
+Sub-Saharan Africa,tertiary,2005,6.05515003204346
+Sub-Saharan Africa,tertiary,2006,6.24377012252808
+Sub-Saharan Africa,tertiary,2007,6.42028999328613
+Sub-Saharan Africa,tertiary,2008,6.74998998641968
+Sub-Saharan Africa,tertiary,2009,7.13790988922119
+Sub-Saharan Africa,tertiary,2010,7.58255004882812
+Sub-Saharan Africa,tertiary,2011,7.91926002502441
+Sub-Saharan Africa,tertiary,2012,8.23978996276855
+Sub-Saharan Africa,tertiary,2013,8.56149959564209
+Sub-Saharan Africa,tertiary,2014,8.72679042816162
+Sub-Saharan Africa,tertiary,2015,8.83660984039307
+Sub-Saharan Africa,tertiary,2016,8.84762001037598
+Sub-Saharan Africa,tertiary,2017,8.98320960998535
+Sub-Saharan Africa,tertiary,2018,9.08197975158691
+Sub-Saharan Africa,tertiary,2019,9.09492015838623
+Sub-Saharan Africa,tertiary,2020,9.19791030883789
+Sub-Saharan Africa,tertiary_female,2000,3.59546995162964
+Sub-Saharan Africa,tertiary_female,2001,3.86659002304077
+Sub-Saharan Africa,tertiary_female,2002,4.1730899810791
+Sub-Saharan Africa,tertiary_female,2003,4.44037008285522
+Sub-Saharan Africa,tertiary_female,2004,4.70325994491577
+Sub-Saharan Africa,tertiary_female,2005,4.99179983139038
+Sub-Saharan Africa,tertiary_female,2006,5.20031976699829
+Sub-Saharan Africa,tertiary_female,2007,5.34794998168945
+Sub-Saharan Africa,tertiary_female,2008,5.58747005462646
+Sub-Saharan Africa,tertiary_female,2009,5.9407000541687
+Sub-Saharan Africa,tertiary_female,2010,6.29003000259399
+Sub-Saharan Africa,tertiary_female,2011,6.48812007904053
+Sub-Saharan Africa,tertiary_female,2012,6.87937021255493
+Sub-Saharan Africa,tertiary_female,2013,7.20077991485596
+Sub-Saharan Africa,tertiary_female,2014,7.33116006851196
+Sub-Saharan Africa,tertiary_female,2015,7.47914981842041
+Sub-Saharan Africa,tertiary_female,2016,7.55111980438232
+Sub-Saharan Africa,tertiary_female,2017,7.71869993209839
+Sub-Saharan Africa,tertiary_female,2018,7.87963008880615
+Sub-Saharan Africa,tertiary_female,2019,7.95893001556396
+Sub-Saharan Africa,tertiary_female,2020,8.0980396270752
+Sub-Saharan Africa,tertiary_male,2000,5.17976999282837
+Sub-Saharan Africa,tertiary_male,2001,5.61231994628906
+Sub-Saharan Africa,tertiary_male,2002,5.99749994277954
+Sub-Saharan Africa,tertiary_male,2003,6.4949197769165
+Sub-Saharan Africa,tertiary_male,2004,6.75323009490967
+Sub-Saharan Africa,tertiary_male,2005,7.11676979064941
+Sub-Saharan Africa,tertiary_male,2006,7.28551006317139
+Sub-Saharan Africa,tertiary_male,2007,7.49032020568848
+Sub-Saharan Africa,tertiary_male,2008,7.90936994552612
+Sub-Saharan Africa,tertiary_male,2009,8.33090019226074
+Sub-Saharan Africa,tertiary_male,2010,8.87022972106934
+Sub-Saharan Africa,tertiary_male,2011,9.34358978271484
+Sub-Saharan Africa,tertiary_male,2012,9.59259033203125
+Sub-Saharan Africa,tertiary_male,2013,9.91392993927002
+Sub-Saharan Africa,tertiary_male,2014,10.1129398345947
+Sub-Saharan Africa,tertiary_male,2015,10.1831197738647
+Sub-Saharan Africa,tertiary_male,2016,10.1313600540161
+Sub-Saharan Africa,tertiary_male,2017,10.2351398468018
+Sub-Saharan Africa,tertiary_male,2018,10.2715902328491
+Sub-Saharan Africa,tertiary_male,2019,10.2185297012329
+Sub-Saharan Africa,tertiary_male,2020,10.2852296829224
+World,primary,2000,99.119873046875
+World,primary,2001,99.1644821166992
+World,primary,2002,99.4441604614258
+World,primary,2003,100.94140625
+World,primary,2004,101.587272644043
+World,primary,2005,101.717559814453
+World,primary,2006,101.727363586426
+World,primary,2007,102.686042785645
+World,primary,2008,102.902557373047
+World,primary,2009,102.711402893066
+World,primary,2010,102.512619018555
+World,primary,2011,102.36930847168
+World,primary,2012,102.895118713379
+World,primary,2013,102.981788635254
+World,primary,2014,101.604377746582
+World,primary,2015,100.999900817871
+World,primary,2016,102.124237060547
+World,primary,2017,101.750663757324
+World,primary,2018,99.1445083618164
+World,primary,2019,99.1449432373047
+World,primary,2020,99.6324920654297
+World,primary_female,2000,95.1946105957031
+World,primary_female,2001,95.4945602416992
+World,primary_female,2002,95.8697891235352
+World,primary_female,2003,98.3783187866211
+World,primary_female,2004,99.0662078857422
+World,primary_female,2005,99.3401489257812
+World,primary_female,2006,99.5598068237305
+World,primary_female,2007,100.632926940918
+World,primary_female,2008,101.207778930664
+World,primary_female,2009,101.206077575684
+World,primary_female,2010,101.134399414062
+World,primary_female,2011,100.949836730957
+World,primary_female,2012,101.646003723145
+World,primary_female,2013,102.623847961426
+World,primary_female,2014,101.261238098145
+World,primary_female,2015,100.754737854004
+World,primary_female,2016,102.330017089844
+World,primary_female,2017,101.83171081543
+World,primary_female,2018,98.0726013183594
+World,primary_female,2019,98.2283782958984
+World,primary_female,2020,98.7319412231445
+World,primary_male,2000,102.818557739258
+World,primary_male,2001,102.617828369141
+World,primary_male,2002,102.80403137207
+World,primary_male,2003,103.348747253418
+World,primary_male,2004,103.948013305664
+World,primary_male,2005,103.94213104248
+World,primary_male,2006,103.754707336426
+World,primary_male,2007,104.605682373047
+World,primary_male,2008,104.487030029297
+World,primary_male,2009,104.118896484375
+World,primary_male,2010,103.801368713379
+World,primary_male,2011,103.699478149414
+World,primary_male,2012,104.065887451172
+World,primary_male,2013,103.317451477051
+World,primary_male,2014,101.926261901855
+World,primary_male,2015,101.229881286621
+World,primary_male,2016,101.931182861328
+World,primary_male,2017,101.674606323242
+World,primary_male,2018,100.150901794434
+World,primary_male,2019,100.00594329834
+World,primary_male,2020,100.479049682617
+World,secondary,2000,59.471851348877
+World,secondary,2001,60.2711296081543
+World,secondary,2002,61.6164588928223
+World,secondary,2003,62.3989791870117
+World,secondary,2004,63.4511299133301
+World,secondary,2005,64.4113006591797
+World,secondary,2006,65.3684387207031
+World,secondary,2007,66.8459777832031
+World,secondary,2008,68.3432464599609
+World,secondary,2009,69.3999710083008
+World,secondary,2010,70.9471435546875
+World,secondary,2011,71.9032669067383
+World,secondary,2012,72.7067337036133
+World,secondary,2013,74.0367202758789
+World,secondary,2014,74.9258728027344
+World,secondary,2015,74.9668884277344
+World,secondary,2016,75.1899871826172
+World,secondary,2017,74.9489288330078
+World,secondary,2018,75.54248046875
+World,secondary,2019,75.9502716064453
+World,secondary,2020,76.5068206787109
+World,secondary_female,2000,56.860279083252
+World,secondary_female,2001,57.7146911621094
+World,secondary_female,2002,59.2128295898438
+World,secondary_female,2003,60.4301910400391
+World,secondary_female,2004,61.512378692627
+World,secondary_female,2005,62.6939315795898
+World,secondary_female,2006,63.7244415283203
+World,secondary_female,2007,65.3435592651367
+World,secondary_female,2008,67.0329208374023
+World,secondary_female,2009,68.4285202026367
+World,secondary_female,2010,69.7701110839844
+World,secondary_female,2011,70.7247619628906
+World,secondary_female,2012,71.6249618530273
+World,secondary_female,2013,73.3740463256836
+World,secondary_female,2014,74.414909362793
+World,secondary_female,2015,74.425422668457
+World,secondary_female,2016,74.671012878418
+World,secondary_female,2017,74.3800277709961
+World,secondary_female,2018,75.0290069580078
+World,secondary_female,2019,75.4552917480469
+World,secondary_female,2020,75.8665008544922
+World,secondary_male,2000,61.9529418945312
+World,secondary_male,2001,62.6971817016602
+World,secondary_male,2002,63.8938598632812
+World,secondary_male,2003,64.2610168457031
+World,secondary_male,2004,65.2816696166992
+World,secondary_male,2005,66.0301284790039
+World,secondary_male,2006,66.9155120849609
+World,secondary_male,2007,68.2575836181641
+World,secondary_male,2008,69.572868347168
+World,secondary_male,2009,70.3106689453125
+World,secondary_male,2010,72.0493011474609
+World,secondary_male,2011,73.0086135864258
+World,secondary_male,2012,73.7208709716797
+World,secondary_male,2013,74.6576614379883
+World,secondary_male,2014,75.4044570922852
+World,secondary_male,2015,75.4740600585938
+World,secondary_male,2016,75.6761093139648
+World,secondary_male,2017,75.482048034668
+World,secondary_male,2018,76.0242767333984
+World,secondary_male,2019,76.4151611328125
+World,secondary_male,2020,77.1083374023438
+World,tertiary,2000,19.484260559082
+World,tertiary,2001,20.3930397033691
+World,tertiary,2002,21.6429405212402
+World,tertiary,2003,22.7504901885986
+World,tertiary,2004,23.6235904693604
+World,tertiary,2005,24.3295593261719
+World,tertiary,2006,25.7015895843506
+World,tertiary,2007,26.303430557251
+World,tertiary,2008,27.350980758667
+World,tertiary,2009,28.2910709381104
+World,tertiary,2010,29.5784606933594
+World,tertiary,2011,31.1437301635742
+World,tertiary,2012,32.3113899230957
+World,tertiary,2013,33.0915985107422
+World,tertiary,2014,35.5645713806152
+World,tertiary,2015,36.6130981445312
+World,tertiary,2016,37.1431999206543
+World,tertiary,2017,37.4994316101074
+World,tertiary,2018,37.8525314331055
+World,tertiary,2019,38.6688690185547
+World,tertiary,2020,39.7074089050293
+World,tertiary_female,2000,19.4301891326904
+World,tertiary_female,2001,20.4217891693115
+World,tertiary_female,2002,21.9138298034668
+World,tertiary_female,2003,23.0677700042725
+World,tertiary_female,2004,24.0899906158447
+World,tertiary_female,2005,24.9528503417969
+World,tertiary_female,2006,26.6233196258545
+World,tertiary_female,2007,27.2599792480469
+World,tertiary_female,2008,28.4158096313477
+World,tertiary_female,2009,29.4342708587646
+World,tertiary_female,2010,30.7454795837402
+World,tertiary_female,2011,32.325309753418
+World,tertiary_female,2012,33.8117294311523
+World,tertiary_female,2013,34.8252487182617
+World,tertiary_female,2014,37.5523986816406
+World,tertiary_female,2015,38.6663017272949
+World,tertiary_female,2016,39.3732490539551
+World,tertiary_female,2017,39.8309898376465
+World,tertiary_female,2018,40.3366508483887
+World,tertiary_female,2019,41.417350769043
+World,tertiary_female,2020,42.5671310424805
+World,tertiary_male,2000,19.5360507965088
+World,tertiary_male,2001,20.3655204772949
+World,tertiary_male,2002,21.3838596343994
+World,tertiary_male,2003,22.4472599029541
+World,tertiary_male,2004,23.178279876709
+World,tertiary_male,2005,23.7352600097656
+World,tertiary_male,2006,24.8239803314209
+World,tertiary_male,2007,25.3936290740967
+World,tertiary_male,2008,26.3396492004394
+World,tertiary_male,2009,27.2074394226074
+World,tertiary_male,2010,28.4739093780518
+World,tertiary_male,2011,30.0246200561523
+World,tertiary_male,2012,30.8929805755615
+World,tertiary_male,2013,31.4556293487549
+World,tertiary_male,2014,33.6915092468262
+World,tertiary_male,2015,34.6807899475098
+World,tertiary_male,2016,35.0478515625
+World,tertiary_male,2017,35.3088798522949
+World,tertiary_male,2018,35.5173683166504
+World,tertiary_male,2019,36.0825500488281
+World,tertiary_male,2020,37.0155715942383
