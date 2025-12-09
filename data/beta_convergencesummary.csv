@@ -1,0 +1,4 @@
+Level,Beta_Coefficient,Beta_pvalue,Interpretation
+primary,-0.13638159962220053,0.6330297705874706,Convergence (β < 0)
+secondary,-0.14150075099683723,0.5880903323578334,Convergence (β < 0)
+tertiary,0.015565313948835837,0.9730567225674696,Divergence (β > 0)
