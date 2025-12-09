@@ -21,14 +21,89 @@ bibliography: references.bib
 csl: apa.csl
 ---
 
+# Introduction
+
+The overarching goal of this project is to evaluate global progress in equitable access to education from 2000 to 2020. We focus on whether less-developed regions have been catching up to the world average in school enrollment and whether gender disparities in these regions have narrowed over time. 
+
+By combining regional and gender-disaggregated enrollment data, we assess whether international development efforts have contributed to convergence in both educational attainment and gender parity.
+
+* add main findings *
+
+# Data Description & Cleaning
+This project uses school enrollment data from the **World Bank World Development Indicators (WDI)** database. The dataset includes gross enrollment ratios for three education levels—**primary**, **secondary**, and **tertiary**—, total and by gender. The indicators are:
+
+- **Primary Education**
+  - Total: `SE.PRM.ENRR`
+  - Male: `SE.PRM.ENRR.MA`
+  - Female: `SE.PRM.ENRR.FE`
+
+- **Secondary Education**
+  - Total: `SE.SEC.ENRR`
+  - Male: `SE.SEC.ENRR.MA`
+  - Female: `SE.SEC.ENRR.FE`
+
+- **Tertiary Education**
+  - Total: `SE.TER.ENRR`
+  - Male: `SE.TER.ENRR.MA`
+  - Female: `SE.TER.ENRR.FE`
+
+Data were collected for all available countries over the period **2000–2020** using the `wb.data.DataFrame()` function. The raw dataset was saved as `data/wdi_edu.csv`.
+
+---
+
+## Data Cleaning
+
+Here are our preprocessing steps before  analysis:
+
+### Removal of Missing Values
+Rows with incomplete observations across any of the enrollment indicators were removed to ensure consistent time-series data. The resulting cleaned dataset (`df_clean`) contains only complete country-year records for all twenty years.
+
+### Standardizing Indicator Labels
+A mapping dictionary was applied to replace WDI indicator codes with more descriptive names such as:
+
+- `"SE.PRM.ENRR"` → `"primary"`
+- `"SE.PRM.ENRR.FE"` → `"primary_female"`
+- `"SE.SEC.ENRR.MA"` → `"secondary_male"`
+- `"SE.TER.ENRR"` → `"tertiary"`
+
+### Filtering to Target Regions
+We filtered our data down to keep only the major global regions:
+
+- Sub-Saharan Africa  
+- South Asia  
+- Middle East, North Africa, Afghanistan & Pakistan  
+- Latin America & Caribbean  
+- East Asia & Pacific  
+- Europe & Central Asia  
+- North America  
+- World
+
+### Converting to Long Format
+The cleaned regional dataset was reshaped from wide to long form:
+
+- Year columns (e.g., `"YR2000"`) were turned into a single `year` variable.
+- `"YR"` prefixes were removed and values were converted to integers.
+- Data were sorted by `Country`, `series`, and `year`.
+
+### Exporting Final Dataset
+The final long-format dataset used for analysis was saved as `data/wdi_edu_filtered_long.csv`.
 
 ```{python}
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-df = pd.read_csv("/Users/anniee_me/qtm350-final-project/gender_visualization/wdi_edu_filtered.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/yxyang05/qtm350-final-project/main/data/wdi_edu_filtered_long.csv")
+
+```
+
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+df = pd.read_csv("https://raw.githubusercontent.com/yxyang05/qtm350-final-project/main/data/wdi_edu_filtered.csv")
 
 df["Country"] = df["Country"].astype(str).str.strip()
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,7 +11,7 @@
 <meta name="author" content="Yan Yang (ID: 2610419)">
 <meta name="author" content="Gloria Wang (2550999)">
 
-<title>QTM 350 Final Project</title>
+<title>Two Decades of Educational Change: Global Enrollment Trends and Gender Gap Reduction, 2000–2020</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -35,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="final_report_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="final_report_files/libs/quarto-html/anchor.min.js"></script>
 <link href="final_report_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="final_report_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="final_report_files/libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="final_report_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="final_report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="final_report_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -51,7 +86,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#project-name" id="toc-project-name" class="nav-link active" data-scroll-target="#project-name"><span class="header-section-number">1</span> Project Name:</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#data-description-cleaning" id="toc-data-description-cleaning" class="nav-link" data-scroll-target="#data-description-cleaning"><span class="header-section-number">2</span> Data Description &amp; Cleaning</a>
+  <ul class="collapse">
+  <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link" data-scroll-target="#data-cleaning"><span class="header-section-number">2.1</span> Data Cleaning</a>
+  <ul class="collapse">
+  <li><a href="#removal-of-missing-values" id="toc-removal-of-missing-values" class="nav-link" data-scroll-target="#removal-of-missing-values"><span class="header-section-number">2.1.1</span> Removal of Missing Values</a></li>
+  <li><a href="#standardizing-indicator-labels" id="toc-standardizing-indicator-labels" class="nav-link" data-scroll-target="#standardizing-indicator-labels"><span class="header-section-number">2.1.2</span> Standardizing Indicator Labels</a></li>
+  <li><a href="#filtering-to-target-regions" id="toc-filtering-to-target-regions" class="nav-link" data-scroll-target="#filtering-to-target-regions"><span class="header-section-number">2.1.3</span> Filtering to Target Regions</a></li>
+  <li><a href="#converting-to-long-format" id="toc-converting-to-long-format" class="nav-link" data-scroll-target="#converting-to-long-format"><span class="header-section-number">2.1.4</span> Converting to Long Format</a></li>
+  <li><a href="#exporting-final-dataset" id="toc-exporting-final-dataset" class="nav-link" data-scroll-target="#exporting-final-dataset"><span class="header-section-number">2.1.5</span> Exporting Final Dataset</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="final_report.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -59,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">QTM 350 Final Project</h1>
+<h1 class="title">Two Decades of Educational Change: Global Enrollment Trends and Gender Gap Reduction, 2000–2020</h1>
 </div>
 
 
@@ -85,9 +131,259 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-name" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="project-name"><span class="header-section-number">1</span> Project Name:</h2>
-<p>The overarching goal of this project is to evaluate global progress in equitable access to education from 2000 to 2020. We focus on whether less-developed regions have been catching up to the world average in school enrollment and whether gender disparities in these regions have narrowed over time. By combining regional and gender-disaggregated enrollment data, we assess whether international development efforts have contributed to convergence in both educational attainment and gender parity.</p>
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>The overarching goal of this project is to evaluate global progress in equitable access to education from 2000 to 2020. We focus on whether less-developed regions have been catching up to the world average in school enrollment and whether gender disparities in these regions have narrowed over time.</p>
+<p>By combining regional and gender-disaggregated enrollment data, we assess whether international development efforts have contributed to convergence in both educational attainment and gender parity.</p>
+<ul>
+<li>add main findings *</li>
+</ul>
+</section>
+<section id="data-description-cleaning" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Data Description &amp; Cleaning</h1>
+<p>This project uses school enrollment data from the <strong>World Bank World Development Indicators (WDI)</strong> database. The dataset includes gross enrollment ratios for three education levels—<strong>primary</strong>, <strong>secondary</strong>, and <strong>tertiary</strong>—, total and by gender. The indicators are:</p>
+<ul>
+<li><strong>Primary Education</strong>
+<ul>
+<li>Total: <code>SE.PRM.ENRR</code></li>
+<li>Male: <code>SE.PRM.ENRR.MA</code></li>
+<li>Female: <code>SE.PRM.ENRR.FE</code></li>
+</ul></li>
+<li><strong>Secondary Education</strong>
+<ul>
+<li>Total: <code>SE.SEC.ENRR</code></li>
+<li>Male: <code>SE.SEC.ENRR.MA</code></li>
+<li>Female: <code>SE.SEC.ENRR.FE</code></li>
+</ul></li>
+<li><strong>Tertiary Education</strong>
+<ul>
+<li>Total: <code>SE.TER.ENRR</code></li>
+<li>Male: <code>SE.TER.ENRR.MA</code></li>
+<li>Female: <code>SE.TER.ENRR.FE</code></li>
+</ul></li>
+</ul>
+<p>Data were collected for all available countries over the period <strong>2000–2020</strong> using the <code>wb.data.DataFrame()</code> function. The raw dataset was saved as <code>data/wdi_edu.csv</code>.</p>
+<hr>
+<section id="data-cleaning" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="data-cleaning"><span class="header-section-number">2.1</span> Data Cleaning</h2>
+<p>Here are our preprocessing steps before analysis:</p>
+<section id="removal-of-missing-values" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="removal-of-missing-values"><span class="header-section-number">2.1.1</span> Removal of Missing Values</h3>
+<p>Rows with incomplete observations across any of the enrollment indicators were removed to ensure consistent time-series data. The resulting cleaned dataset (<code>df_clean</code>) contains only complete country-year records for all twenty years.</p>
+</section>
+<section id="standardizing-indicator-labels" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="standardizing-indicator-labels"><span class="header-section-number">2.1.2</span> Standardizing Indicator Labels</h3>
+<p>A mapping dictionary was applied to replace WDI indicator codes with more descriptive names such as:</p>
+<ul>
+<li><code>"SE.PRM.ENRR"</code> → <code>"primary"</code></li>
+<li><code>"SE.PRM.ENRR.FE"</code> → <code>"primary_female"</code></li>
+<li><code>"SE.SEC.ENRR.MA"</code> → <code>"secondary_male"</code></li>
+<li><code>"SE.TER.ENRR"</code> → <code>"tertiary"</code></li>
+</ul>
+</section>
+<section id="filtering-to-target-regions" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="filtering-to-target-regions"><span class="header-section-number">2.1.3</span> Filtering to Target Regions</h3>
+<p>We filtered our data down to keep only the major global regions:</p>
+<ul>
+<li>Sub-Saharan Africa<br>
+</li>
+<li>South Asia<br>
+</li>
+<li>Middle East, North Africa, Afghanistan &amp; Pakistan<br>
+</li>
+<li>Latin America &amp; Caribbean<br>
+</li>
+<li>East Asia &amp; Pacific<br>
+</li>
+<li>Europe &amp; Central Asia<br>
+</li>
+<li>North America<br>
+</li>
+<li>World</li>
+</ul>
+</section>
+<section id="converting-to-long-format" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="converting-to-long-format"><span class="header-section-number">2.1.4</span> Converting to Long Format</h3>
+<p>The cleaned regional dataset was reshaped from wide to long form:</p>
+<ul>
+<li>Year columns (e.g., <code>"YR2000"</code>) were turned into a single <code>year</code> variable.</li>
+<li><code>"YR"</code> prefixes were removed and values were converted to integers.</li>
+<li>Data were sorted by <code>Country</code>, <code>series</code>, and <code>year</code>.</li>
+</ul>
+</section>
+<section id="exporting-final-dataset" class="level3" data-number="2.1.5">
+<h3 data-number="2.1.5" class="anchored" data-anchor-id="exporting-final-dataset"><span class="header-section-number">2.1.5</span> Exporting Final Dataset</h3>
+<p>The final long-format dataset used for analysis was saved as <code>data/wdi_edu_filtered_long.csv</code>.</p>
+<div id="89a0ad0c" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"https://raw.githubusercontent.com/yxyang05/qtm350-final-project/main/data/wdi_edu_filtered_long.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="d7587ac5" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"https://raw.githubusercontent.com/yxyang05/qtm350-final-project/main/data/wdi_edu_filtered.csv"</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"Country"</span>] <span class="op">=</span> df[<span class="st">"Country"</span>].astype(<span class="bu">str</span>).<span class="bu">str</span>.strip()</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>gender_df <span class="op">=</span> df[df[<span class="st">"series"</span>].<span class="bu">str</span>.contains(<span class="st">"_male|_female"</span>, case<span class="op">=</span><span class="va">False</span>, na<span class="op">=</span><span class="va">False</span>)].copy()</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>year_cols <span class="op">=</span> [c <span class="cf">for</span> c <span class="kw">in</span> gender_df.columns <span class="cf">if</span> c.startswith(<span class="st">"YR"</span>)]</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>long_df <span class="op">=</span> gender_df.melt(</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    id_vars<span class="op">=</span>[<span class="st">"Country"</span>, <span class="st">"series"</span>],</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    value_vars<span class="op">=</span>year_cols,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    var_name<span class="op">=</span><span class="st">"Year"</span>,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    value_name<span class="op">=</span><span class="st">"Rate"</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>long_df[<span class="st">"Year"</span>] <span class="op">=</span> long_df[<span class="st">"Year"</span>].<span class="bu">str</span>.replace(<span class="st">"YR"</span>, <span class="st">""</span>, regex<span class="op">=</span><span class="va">False</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>long_df[[<span class="st">"Level"</span>, <span class="st">"Gender"</span>]] <span class="op">=</span> long_df[<span class="st">"series"</span>].<span class="bu">str</span>.split(pat<span class="op">=</span><span class="st">"_"</span>, n<span class="op">=</span><span class="dv">1</span>, expand<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>pivot_df <span class="op">=</span> long_df.pivot_table(</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    index<span class="op">=</span>[<span class="st">"Country"</span>, <span class="st">"Level"</span>, <span class="st">"Year"</span>],</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    columns<span class="op">=</span><span class="st">"Gender"</span>,</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    values<span class="op">=</span><span class="st">"Rate"</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>).reset_index()</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>pivot_df[<span class="st">"GPI"</span>] <span class="op">=</span> pivot_df[<span class="st">"female"</span>] <span class="op">/</span> pivot_df[<span class="st">"male"</span>]</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>pivot_df <span class="op">=</span> pivot_df.replace([np.inf, <span class="op">-</span>np.inf], np.nan).dropna(subset<span class="op">=</span>[<span class="st">"GPI"</span>])</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>pivot_df[<span class="st">"Country"</span>] <span class="op">=</span> pivot_df[<span class="st">"Country"</span>].astype(<span class="bu">str</span>).<span class="bu">str</span>.strip()</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>regions <span class="op">=</span> [</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">"East Asia &amp; Pacific"</span>,</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Latin America &amp; Caribbean"</span>,</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Middle East, North Africa, Afghanistan &amp; Pakistan"</span>,</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>    <span class="st">"South Asia"</span>,</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Sub-Saharan Africa"</span>,</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>    <span class="st">"World"</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>plot_df <span class="op">=</span> pivot_df[pivot_df[<span class="st">"Country"</span>].isin(regions)].copy()</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>region_colors <span class="op">=</span> {</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    <span class="st">"East Asia &amp; Pacific"</span>: <span class="st">"#0072B2"</span>,      </span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Latin America &amp; Caribbean"</span>: <span class="st">"#E69F00"</span>, </span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Middle East, North Africa, Afghanistan &amp; Pakistan"</span>: <span class="st">"#009E73"</span>,  <span class="co"># green</span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    <span class="st">"South Asia"</span>: <span class="st">"#D55E00"</span>,                </span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Sub-Saharan Africa"</span>: <span class="st">"#6F42C1"</span>,       </span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>    <span class="st">"World"</span>: <span class="st">"#58595B"</span>                      </span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>sns.set_theme(style<span class="op">=</span><span class="st">"whitegrid"</span>)</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>levels <span class="op">=</span> [<span class="st">"primary"</span>, <span class="st">"secondary"</span>, <span class="st">"tertiary"</span>]</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> level <span class="kw">in</span> levels:</span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>    subset <span class="op">=</span> plot_df[plot_df[<span class="st">"Level"</span>] <span class="op">==</span> level]</span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> region <span class="kw">in</span> regions:</span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>        data <span class="op">=</span> subset[subset[<span class="st">"Country"</span>] <span class="op">==</span> region].sort_values(<span class="st">"Year"</span>)</span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> data.empty:</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>        line_color <span class="op">=</span> region_colors.get(region, <span class="st">"gray"</span>)</span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> region <span class="op">==</span> <span class="st">"World"</span>:</span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>            lw <span class="op">=</span> <span class="fl">2.6</span></span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>            alpha <span class="op">=</span> <span class="fl">1.0</span></span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>            z <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>            markersize <span class="op">=</span> <span class="dv">4</span></span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>            lw <span class="op">=</span> <span class="fl">2.0</span></span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>            alpha <span class="op">=</span> <span class="fl">0.85</span></span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>            z <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>            markersize <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>        ax.plot(</span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>            data[<span class="st">"Year"</span>], data[<span class="st">"GPI"</span>],</span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>            marker<span class="op">=</span><span class="st">"o"</span>,</span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a>            markersize<span class="op">=</span>markersize,</span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>            linewidth<span class="op">=</span>lw,</span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a>            label<span class="op">=</span>region,</span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>            color<span class="op">=</span>line_color,</span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>            alpha<span class="op">=</span>alpha,</span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>            zorder<span class="op">=</span>z</span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> subset.empty:</span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a>        ax.axhspan(<span class="fl">0.97</span>, <span class="fl">1.03</span>, color<span class="op">=</span><span class="st">"#CFCFCF"</span>, alpha<span class="op">=</span><span class="fl">0.25</span>, zorder<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a>        ax.axhline(<span class="dv">1</span>, color<span class="op">=</span><span class="st">"#B3B3B3"</span>, linestyle<span class="op">=</span><span class="st">"--"</span>, linewidth<span class="op">=</span><span class="dv">1</span>, zorder<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a>        min_year <span class="op">=</span> subset[<span class="st">"Year"</span>].<span class="bu">min</span>()</span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a>        max_year <span class="op">=</span> subset[<span class="st">"Year"</span>].<span class="bu">max</span>()</span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a>        step <span class="op">=</span> <span class="dv">5</span> <span class="cf">if</span> (max_year <span class="op">-</span> min_year) <span class="op">&gt;=</span> <span class="dv">5</span> <span class="cf">else</span> <span class="dv">1</span></span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a>        ax.set_xticks(np.arange(min_year, max_year <span class="op">+</span> <span class="dv">1</span>, step))</span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a>        ax.text(</span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a>            max_year <span class="op">+</span> <span class="fl">0.3</span>, <span class="fl">1.0</span>,</span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Parity (GPI = 1.0)"</span>,</span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a>            fontsize<span class="op">=</span><span class="dv">8</span>,</span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a>            va<span class="op">=</span><span class="st">"center"</span></span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a>    ax.set_title(</span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a>        <span class="ss">f"GPI Trend — </span><span class="sc">{</span>level<span class="sc">.</span>capitalize()<span class="sc">}</span><span class="ss"> Education</span><span class="ch">\n</span><span class="ss">"</span></span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a>        <span class="st">"GPI = Female / Male Enrollment (1.0 = parity; shaded band = near parity)"</span>,</span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a>        fontsize<span class="op">=</span><span class="dv">13</span>,</span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a>        weight<span class="op">=</span><span class="st">"bold"</span></span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a>    ax.set_ylabel(<span class="st">"Gender Parity Index (Female / Male)"</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a>    ax.set_xlabel(<span class="st">"Year"</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>    ax.set_ylim(<span class="fl">0.6</span>, <span class="fl">1.5</span>)</span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a>    ax.grid(<span class="va">True</span>, linewidth<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a>    legend <span class="op">=</span> ax.legend(</span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a>        loc<span class="op">=</span><span class="st">"upper center"</span>,</span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a>        bbox_to_anchor<span class="op">=</span>(<span class="fl">0.5</span>, <span class="op">-</span><span class="fl">0.22</span>),</span>
+<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a>        ncol<span class="op">=</span><span class="dv">3</span>,</span>
+<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a>        frameon<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a>        fontsize<span class="op">=</span><span class="dv">9</span>,</span>
+<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a>        title<span class="op">=</span><span class="st">"Region"</span></span>
+<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> legend.get_title() <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a>        legend.get_title().set_fontsize(<span class="dv">10</span>)</span>
+<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a>        legend.get_title().set_weight(<span class="st">"bold"</span>)</span>
+<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a>    fig.subplots_adjust(bottom<span class="op">=</span><span class="fl">0.25</span>)</span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a>    <span class="co"># plt.savefig(f"gpi_trend_{level}.png", dpi=300, bbox_inches="tight")</span></span>
+<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="final_report_files/figure-html/cell-3-output-1.png" width="942" height="582" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="final_report_files/figure-html/cell-3-output-2.png" width="942" height="582" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="final_report_files/figure-html/cell-3-output-3.png" width="942" height="582" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
 </section>
 
 </main>
