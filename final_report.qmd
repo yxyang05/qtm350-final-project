@@ -86,9 +86,63 @@ The cleaned regional dataset was reshaped from wide to long form:
 ## Exporting Final Dataset
 The final long-format dataset used for analysis was saved as `data/wdi_edu_filtered_long.csv`.
 
-# Data Analysis
-*add sql table*
+Here is summary statistics for the variables we have across all regions from 2000-2020:
+```{python}
+import sqlite3
+import pandas as pd
 
+df = pd.read_csv("data/wdi_edu_filtered_long.csv")
+conn = sqlite3.connect("wdi_edu.db")
+df.to_sql("wdi_edu", conn, if_exists="replace", index=False)
+
+pd.read_sql('''
+SELECT 
+    series,
+    AVG(value) AS mean_rate,
+    MIN(value) AS min_rate,
+    MAX(value) AS max_rate
+FROM wdi_edu
+WHERE year BETWEEN 2000 AND 2020
+GROUP BY series;
+''', conn)
+```
+
+# Data Analysis
+
+## Growth in Each Education Level by Region
+This table reports the average annual growth in primary, secondary, and tertiary school enrollment rates for each world region between 2000 and 2020. Growth rates are calculated as the year-to-year change in enrollment values, and then averaged over the 20-year period to capture longer-term regional trends. Positive values indicate that enrollment has generally increased over time, while negative values reflect declining or stagnant progress. Comparing growth across regions and education levels highlights where expansion in access to schooling has been fastest and where progress has been more limited.
+```{python}
+pd.read_sql('''
+WITH growth AS (
+    SELECT
+        region,
+        series,
+        AVG(annual_growth) AS avg_growth
+    FROM (
+        SELECT
+            region,
+            series,
+            value - LAG(value) OVER (PARTITION BY region, series ORDER BY year)
+                AS annual_growth
+        FROM wdi_edu
+        WHERE year BETWEEN 2000 AND 2020
+          AND series IN ('primary','secondary','tertiary')
+    ) g
+    WHERE annual_growth IS NOT NULL
+    GROUP BY region, series
+)
+SELECT
+    region,
+    MAX(CASE WHEN series = 'primary' THEN avg_growth END) AS primary_growth,
+    MAX(CASE WHEN series = 'secondary' THEN avg_growth END) AS secondary_growth,
+    MAX(CASE WHEN series = 'tertiary' THEN avg_growth END) AS tertiary_growth
+FROM growth
+GROUP BY region
+ORDER BY region;
+''', conn)
+```
+
+Sub-Saharan Africa shows the fastest increase in primary enrollment, with an average annual rise of 0.92 percentage points. This suggests steady and sustained improvement in access to primary education across the region. Sub-Saharan Africa also experienced similar gains in secondary enrollment, although East Asia & Pacific and South Asia outpaced all regions with even higher average yearly increases of 1.39 and 1.47, respectively. For tertiary education, East Asia & Pacific, Latin America & Caribbean, and the global average all exceeded 1 percentage point of growth per year, indicating particularly rapid expansion in higher education access in these regions. Taken together, these trends highlight that while basic education has been improving globally, while Sub-Saharan Africa has prioritized building strong progress at the primary level as a critical foundation for long-term educational development.
 
 ```{python}
 from matplotlib import pyplot as plt
