@@ -16,18 +16,24 @@ execute:
   echo: true      
   warning: false  
   message: false  
-  cache: true
+  cache: false
 bibliography: references.bib
 csl: apa.csl
 ---
 
 # Introduction
 
-The overarching goal of this project is to evaluate global progress in equitable access to education from 2000 to 2020. We focus on whether less-developed regions have been catching up to the world average in school enrollment and whether gender disparities in these regions have narrowed over time. 
+Over the past twenty years, global reports have highlighted that access to education remains uneven across many regions of the world. Earlier analyses consistently showed that developing countries lagged behind global averages in school enrollment, including when examining male and female participation separately.
 
-By combining regional and gender-disaggregated enrollment data, we assess whether international development efforts have contributed to convergence in both educational attainment and gender parity.
+We focus on five major world regions: East Asia & Pacific, Latin America & Caribbean, the Middle East & North Africa (including Afghanistan and Pakistan), South Asia, and Sub-Saharan Africa. We choose these regions because these areas have historically exhibited the most pronounced educational inequalities and have been the primary focus of development assistance and policy reforms. These regions encompass a substantial share of the global population and represent contexts where expanded schooling is expected to have the greatest long-term social and economic impact.
 
-* add main findings *
+Although several of these regions, such as East Asia & Pacific, have substantially increased public investment in schooling and improved educational attainment, it remains unclear whether these advances have led to true convergence toward global norms. This motivates our first research question: Have enrollment rates in these five regions converged toward the world average from 2000 to 2020 across primary, secondary, and tertiary education?
+
+Achieving gender parity is also a critical component of education equity. International development discussions have emphasized that equal access for girls is essential for long-term improvements in health, labor participation, and economic stability. While some regions have made substantial progress, the persistence and scale of gender disparities vary considerably. In South Asia, for example, notable increases in girls’ schooling have important implications for future demographic and economic outcomes.
+Given these mixed patterns, our second research question examines whether female–male enrollment gaps have narrowed from 2000 to 2020 within the same regions.
+
+By evaluating both regional convergence and gender parity, this project seeks to provide a clearer understanding of how global education equity has evolved over the past two decades and to identify where significant challenges still remain. Our overarching goal is to assess whether the world is moving closer to universal and equitable access to education, or whether uneven progress continues to reinforce existing inequalities.
+
 
 # Data Description & Cleaning
 This project uses school enrollment data from the **World Bank World Development Indicators (WDI)** database. The dataset includes gross enrollment ratios for three education levels—**primary**, **secondary**, and **tertiary**—, total and by gender. The indicators are:
@@ -111,6 +117,8 @@ GROUP BY series;
 
 ## Growth in Each Education Level by Region
 This table reports the average annual growth in primary, secondary, and tertiary school enrollment rates for each world region between 2000 and 2020. Growth rates are calculated as the year-to-year change in enrollment values, and then averaged over the 20-year period to capture longer-term regional trends. Positive values indicate that enrollment has generally increased over time, while negative values reflect declining or stagnant progress. Comparing growth across regions and education levels highlights where expansion in access to schooling has been fastest and where progress has been more limited.
+
+
 ```{python}
 pd.read_sql('''
 WITH growth AS (
@@ -165,7 +173,10 @@ gpi_tertiary = mpimg.imread("figures/gpi_trend_tertiary.png")
 ```
 
 ## Enrollment Trends over Time 2000-2020
-*intro*
+To assess how each region compare to the global education level, we examine the convergence in primary, secondary, and tertiary school enrollment. For 2000 and 2020, we caculated each region’s gap from the world average and measured convergence as the reduction in the absolute distance to the global mean. A positive convergence score indicates the region is moving closer to the world enrollment level while a negative score indicates divergence.
+
+Importantly, these convergence scores should be interpreted alongside previous line graphs. A negative score does not necessarily imply worsening outcomes as divergence may occur because a region’s enrollment rate is rising faster than the world average and surpassing it, not only because it is falling behind. Thus, evaluating both the direction of the gap and the trajectory of enrollment levels is essential for understanding the nature of convergence or divergence.
+
 
 ```{python}
 plt.figure()
@@ -200,8 +211,11 @@ plt.imshow(converge_bar_tertiary)
 
 
 
-## Gender Gaps
-*intro*
+## Gender Parity in Educational Participation
+
+In this section, we assess the evolution of female–male enrollment disparities across five major world regions with historically lower baseline access to education: East Asia & Pacific, Latin America & Caribbean, Middle East & North Africa (including Afghanistan and Pakistan), South Asia, and Sub-Saharan Africa. The global average is incorporated as a benchmark to contextualize regional progress. Gender disparities are quantified through the Gender Parity Index (GPI), calculated as female enrollment divided by male enrollment using World Bank WDI statistics. A value of 1.0 represents gender parity, while values below or above 1.0 indicate male- or female-favored enrollment gaps, respectively. The analysis focuses on three educational stages (primary, secondary, and tertiary) over the period 2000 to 2020.
+
+
 
 ```{python}
 plt.figure()
@@ -229,9 +243,10 @@ At the tertiary level, gender disparities become more pronounced and regionally 
 
 
 
-
-
-
 # Results and Discussion
+
+
+
+
 
 # Conclusion
