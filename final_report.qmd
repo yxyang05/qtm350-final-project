@@ -13,10 +13,10 @@ format:
     toc: true
     number-sections: true
 execute:
-  echo: true      
+  echo: false      
   warning: false  
   message: false  
-  cache: true
+  cache: false
 bibliography: references.bib
 csl: apa.csl
 ---
@@ -146,21 +146,244 @@ plt.imshow(converge_bar_tertiary)
 
 *analysis*
 
-## Gender Gaps
-*intro*
+## Gender Parity in Educational Participation
+
+In this section, we assess the evolution of female–male enrollment disparities across five major world regions with historically lower baseline access to education: East Asia & Pacific, Latin America & Caribbean, Middle East & North Africa (including Afghanistan and Pakistan), South Asia, and Sub-Saharan Africa. The global average is incorporated as a benchmark to contextualize regional progress. Gender disparities are quantified through the Gender Parity Index (GPI), calculated as female enrollment divided by male enrollment using World Bank WDI statistics. A value of 1.0 represents gender parity, while values below or above 1.0 indicate male- or female-favored enrollment gaps, respectively. The analysis focuses on three educational stages (primary, secondary, and tertiary) over the period 2000 to 2020.
+
 
 ```{python}
-plt.figure()
-plt.imshow(gpi_primary)
+import os
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-plt.figure()
-plt.imshow(gpi_secondary)
+os.makedirs("figures", exist_ok=True)
+df = pd.read_csv("data/wdi_edu_filtered.csv")
 
-plt.figure()
-plt.imshow(gpi_tertiary)
+df["Country"] = df["Country"].astype(str).str.strip()
+
+gender_df = df[df["series"].str.contains("_male|_female", case=False, na=False)].copy()
+
+year_cols = [c for c in gender_df.columns if c.startswith("YR")]
+long_df = gender_df.melt(
+    id_vars=["Country", "series"],
+    value_vars=year_cols,
+    var_name="Year",
+    value_name="Rate"
+)
+
+long_df["Year"] = long_df["Year"].str.replace("YR", "", regex=False).astype(int)
+long_df[["Level", "Gender"]] = long_df["series"].str.split(pat="_", n=1, expand=True)
+
+pivot_df = long_df.pivot_table(
+    index=["Country", "Level", "Year"],
+    columns="Gender",
+    values="Rate"
+).reset_index()
+
+pivot_df["GPI"] = pivot_df["female"] / pivot_df["male"]
+pivot_df = pivot_df.replace([np.inf, -np.inf], np.nan).dropna(subset=["GPI"])
+
+pivot_df["Country"] = pivot_df["Country"].astype(str).str.strip()
+
+regions = [
+    "East Asia & Pacific",
+    "Latin America & Caribbean",
+    "Middle East, North Africa, Afghanistan & Pakistan",
+    "South Asia",
+    "Sub-Saharan Africa",
+    "World"
+]
+
+plot_df = pivot_df[pivot_df["Country"].isin(regions)].copy()
+
+region_colors = {
+    "East Asia & Pacific": "#0072B2",
+    "Latin America & Caribbean": "#E69F00",
+    "Middle East, North Africa, Afghanistan & Pakistan": "#009E73",
+    "South Asia": "#D55E00",
+    "Sub-Saharan Africa": "#6F42C1",
+    "World": "#58595B"
+}
+
+sns.set_theme(style="whitegrid")
 ```
 
-*analysis*
+```{python}
+#| label: fig-gpi-primary
+#| fig-cap: "Gender Parity Index (GPI) in Primary Education, 2000–2020. The shaded band indicates near parity (0.97–1.03)."
+
+level = "primary"
+fig, ax = plt.subplots(figsize=(10, 6))
+subset = plot_df[plot_df["Level"] == level]
+
+for region in regions:
+    data = subset[subset["Country"] == region].sort_values("Year")
+    if data.empty: 
+        continue
+    color = region_colors.get(region, "gray")
+    lw   = 2.8 if region == "World" else 2.0
+    alpha = 1.0 if region == "World" else 0.9
+    z    = 10  if region == "World" else 5
+    ms   = 5.5 if region == "World" else 4
+    
+    ax.plot(data["Year"], data["GPI"], 
+            marker="o", markersize=ms, linewidth=lw, 
+            color=color, alpha=alpha, label=region, zorder=z)
+
+ax.axhspan(0.97, 1.03, color="#CFCFCF", alpha=0.3, zorder=1, label="Near parity")
+ax.axhline(1.0, color="#333333", linestyle="--", linewidth=1.2, zorder=1)
+
+ax.set_title("Primary Education", fontsize=15, fontweight="bold", pad=20)
+ax.set_ylabel("Gender Parity Index (Female / Male)", fontsize=12)
+ax.set_xlabel("Year", fontsize=12)
+ax.set_ylim(0.65, 1.45)
+
+years = sorted(subset["Year"].unique())
+ax.set_xticks(np.arange(min(years), max(years)+1, 5))
+
+ax.grid(True, linewidth=0.4, alpha=0.7)
+ax.text(0.98, 1.01, "Parity = 1.0", transform=ax.transAxes, 
+        fontsize=10, ha="right", va="bottom", color="gray")
+
+legend = ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.15), 
+                   ncol=3, frameon=False, fontsize=10.5)
+legend.get_title().set_fontweight("bold")
+
+plt.tight_layout()
+plt.savefig("figures/gpi_primary.png", dpi=300, bbox_inches="tight")
+plt.show()
+```
+
+#### Primary Education
+
+As shown in @fig-gpi-primary, primary-level GPI trends reveal substantial convergence toward gender parity across all regions. By 2020, nearly all regions are positioned within the internationally recognized near-parity threshold (0.97–1.03), including the global average, indicating that gender inequality at the point of entry into schooling has been largely eliminated. Latin America & the Caribbean demonstrates a consistently slight female advantage throughout the two decades. East Asia & Pacific and the world average achieved parity by the mid-2000s and maintained it thereafter. Although starting from a relatively disadvantaged position in 2000, South Asia and Sub-Saharan Africa exhibit steady and continuous improvement, closing the enrollment gap substantially by 2020. These patterns suggest that global education initiatives targeting universal primary school access have been effective in reducing structural gender exclusion in early schooling.
+
+```{python}
+#| label: fig-gpi-secondary
+#| fig-cap: "Gender Parity Index (GPI) in Secondary Education, 2000–2020. The shaded band indicates near parity (0.97–1.03)."
+
+level = "secondary"
+fig, ax = plt.subplots(figsize=(10, 6))
+subset = plot_df[plot_df["Level"] == level]
+
+for region in regions:
+    data = subset[subset["Country"] == region].sort_values("Year")
+    if data.empty: continue
+    color = region_colors.get(region, "gray")
+    lw   = 2.8 if region == "World" else 2.0
+    alpha = 1.0 if region == "World" else 0.9
+    z    = 10  if region == "World" else 5
+    ms   = 5.5 if region == "World" else 4
+    
+    ax.plot(data["Year"], data["GPI"], marker="o", markersize=ms, 
+            linewidth=lw, color=color, alpha=alpha, label=region, zorder=z)
+
+ax.axhspan(0.97, 1.03, color="#CFCFCF", alpha=0.3, zorder=1)
+ax.axhline(1.0, color="#333333", linestyle="--", linewidth=1.2, zorder=1)
+
+ax.set_title("Secondary Education", fontsize=15, fontweight="bold", pad=20)
+ax.set_ylabel("Gender Parity Index (Female / Male)", fontsize=12)
+ax.set_xlabel("Year", fontsize=12)
+ax.set_ylim(0.65, 1.45)
+
+years = sorted(subset["Year"].unique())
+ax.set_xticks(np.arange(min(years), max(years)+1, 5))
+
+ax.grid(True, linewidth=0.4, alpha=0.7)
+ax.text(0.98, 1.01, "Parity = 1.0", transform=ax.transAxes, 
+        fontsize=10, ha="right", va="bottom", color="gray")
+
+legend = ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.15), 
+                   ncol=3, frameon=False, fontsize=10.5)
+legend.get_title().set_fontweight("bold")
+
+plt.tight_layout()
+plt.savefig("figures/gpi_secondary.png", dpi=300, bbox_inches="tight")
+plt.show()
+```
+
+#### Secondary Education
+
+@fig-gpi-secondary shows that while progress is evident at the secondary level, regional disparities remain more persistent than at the primary level. The world average and East Asia & Pacific reached parity by approximately 2010, indicating successful transition for girls into lower-secondary education in these contexts. In contrast, South Asia and Sub-Saharan Africa continue to fall slightly below parity by the end of the time period (approximately 0.94–0.95), despite gradual improvement. The Middle East, North Africa, Afghanistan & Pakistan grouping demonstrates slower convergence toward parity, reflecting continued gendered constraints during adolescence. Latin America & the Caribbean sustains a female-favored balance throughout the period, suggesting comparatively stronger retention of girls beyond primary schooling. These patterns underscore the importance of the primary-to-secondary transition as a critical juncture at which gendered barriers intensify.
+
+```{python}
+#| label: fig-gpi-tertiary
+#| fig-cap: "Gender Parity Index (GPI) in Tertiary Education, 2000–2020. The shaded band indicates near parity (0.97–1.03)."
+
+level = "tertiary"
+fig, ax = plt.subplots(figsize=(10, 6))
+subset = plot_df[plot_df["Level"] == level]
+
+for region in regions:
+    data = subset[subset["Country"] == region].sort_values("Year")
+    if data.empty: continue
+    color = region_colors.get(region, "gray")
+    lw   = 2.8 if region == "World" else 2.0
+    alpha = 1.0 if region == "World" else 0.9
+    z    = 10  if region == "World" else 5
+    ms   = 5.5 if region == "World" else 4
+    
+    ax.plot(data["Year"], data["GPI"], marker="o", markersize=ms, 
+            linewidth=lw, color=color, alpha=alpha, label=region, zorder=z)
+
+ax.axhspan(0.97, 1.03, color="#CFCFCF", alpha=0.3, zorder=1)
+ax.axhline(1.0, color="#333333", linestyle="--", linewidth=1.2, zorder=1)
+
+ax.set_title("Tertiary Education", fontsize=15, fontweight="bold", pad=20)
+ax.set_ylabel("Gender Parity Index (Female / Male)", fontsize=12)
+ax.set_xlabel("Year", fontsize=12)
+ax.set_ylim(0.65, 1.45)
+
+years = sorted(subset["Year"].unique())
+ax.set_xticks(np.arange(min(years), max(years)+1, 5))
+
+ax.grid(True, linewidth=0.4, alpha=0.7)
+ax.text(0.98, 1.01, "Parity = 1.0", transform=ax.transAxes, 
+        fontsize=10, ha="right", va="bottom", color="gray")
+
+legend = ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.15), 
+                   ncol=3, frameon=False, fontsize=10.5)
+legend.get_title().set_fontweight("bold")
+
+plt.tight_layout()
+plt.savefig("figures/gpi_tertiary.png", dpi=300, bbox_inches="tight")
+plt.show()
+```
+
+#### Tertiary Education
+
+At the tertiary level, gender disparities become more pronounced and regionally divergent, as shown in  @fig-gpi-tertiary. The world average surpasses parity around 2010, reflecting the global expansion of women’s participation in higher education. Latin America & the Caribbean experiences the strongest female advantage, exceeding a GPI of 1.30 by 2020, while East Asia & Pacific and South Asia also cross parity after the mid-2010s, indicating accelerating gains in women’s university enrollment. In stark contrast, Sub-Saharan Africa remains significantly below parity throughout the period, with GPI values generally under 0.90 and only modest improvements toward the end of the decade. These persistent regional inequalities highlight the combined influence of financial pressures, limited tertiary infrastructure, and lower female completion rates at earlier levels, which collectively constrain women’s access to higher education in Sub-Saharan Africa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Results and Discussion
 
