@@ -5,6 +5,7 @@ This repository contains data, analysis scripts, cleaned datasets, figures, and 
 ---
 
 ## **📁 Project Structure**
+```bash
 qtm350-final-project/
 │
 ├── data/               # Folder with raw and cleaned data
@@ -24,7 +25,7 @@ qtm350-final-project/
 ├── references.bib      # References for citation
 ├── requirements.txt    # Python packages
 └── README.md           # Project documentation
-
+```
 
 ---
 
