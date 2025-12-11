@@ -167,29 +167,29 @@ To evaluate how each region compares to global progress in education access, we 
 
 The line graphs show how closely each region tracks the world average and whether disparities have narrowed or widened. 
 
-![](figures/enrollment_convergence_primary.png){#fig-primary width=80%}
+![](figures/enrollment_convergence_primary.png){#fig-primary-line}
 
-As shown in @fig-primary, primary enrollment shows clear convergence across regions. Sub-Saharan Africa and the Middle East, North Africa, Afghanistan & Pakistan start well below the world average but improve steadily, reducing the gap by 2020. Latin America & Caribbean remains consistently above the global level but gradually moves closer to it. The differences across regions narrow over time, indicating strong convergence at the primary level.
+As shown in @fig-primary-line, primary enrollment shows clear convergence across regions. Sub-Saharan Africa and the Middle East, North Africa, Afghanistan & Pakistan start well below the world average but improve steadily, reducing the gap by 2020. Latin America & Caribbean remains consistently above the global level but gradually moves closer to it. The differences across regions narrow over time, indicating strong convergence at the primary level.
 
-![](figures/enrollment_convergence_secondary.png){#fig-secondary-line width=80%}
+![](figures/enrollment_convergence_secondary.png){#fig-secondary-line}
 
 As illustrated in @fig-secondary-line, progress at the secondary level is more uneven. High-performing regions such as Latin America & Caribbean and East Asia & Pacific rise steadily and remain above the world average. Meanwhile, South Asia, the Middle East, North Africa, Afghanistan & Pakistan, and especially Sub-Saharan Africa improve more slowly and remain far below global levels. Convergence is weaker here, and substantial regional disparities persist.
 
-![](figures/enrollment_convergence_tertiary.png){#fig-tertiary-line width=80%}
+![](figures/enrollment_convergence_tertiary.png){#fig-tertiary-line}
 
 As shown in @fig-tertiary-line, tertiary enrollment displays the least convergence. Latin America & Caribbean and East Asia & Pacific expand rapidly and widen their advantage over other regions. The Middle East, North Africa, Afghanistan & Pakistan, South Asia, and Sub-Saharan Africa improve but remain far behind. Overall, tertiary education reflects divergence rather than convergence, with inequalities growing over time.
 
 The bar plots summarize how five major world regions (East Asia & Pacific, Latin America & Caribbean, Middle East & North Africa, South Asoa, and Sub-Saharan Africa) progress across education levels. This helps reveal not only which regions are closing historical enrollment gaps but also where disparities have persisted or widened over the past two decades.
 
-![](figures/enrollment_convergence_bar_primary.png){#fig-primary-bar width=80%}
+![](figures/enrollment_convergence_bar_primary.png){#fig-primary-bar}
 
 As shown in @fig-primary-bar, Sub-Saharan Africa displays the strongest convergence toward the world average, followed by East Asia & Pacific and Latin America & Caribbean. The Middle East, North Africa, Afghanistan & Pakistan also shows moderate improvement. South Asia slightly diverges, ending farther from the global baseline than in 2000.
 
-![](figures/enrollment_convergence_bar_secondary.png){#fig-secondary-bar width=80%}
+![](figures/enrollment_convergence_bar_secondary.png){#fig-secondary-bar}
 
 As seen in @fig-secondary-bar, South Asia exhibits the largest improvement and closes the gap most strongly. Other regions experience smaller positive shifts, except East Asia & Pacific, which diverges because its secondary enrollment rose faster than the world average.
 
-![](figures/enrollment_convergence_bar_tertiary.png){#fig-tertiary-bar width=80%}
+![](figures/enrollment_convergence_bar_tertiary.png){#fig-tertiary-bar}
 
 @fig-tertiary-bar highlights that only South Asia demonstrates meaningful convergence at the tertiary level. All other regions diverge, largely because the world average increased rapidly while regional growth lagged behind.
 
@@ -197,15 +197,15 @@ As seen in @fig-secondary-bar, South Asia exhibits the largest improvement and c
 
 We assess the evolution of female–male enrollment disparities across five major world regions with historically lower baseline access to education: East Asia & Pacific, Latin America & Caribbean, the Middle East & North Africa (including Afghanistan and Pakistan), South Asia, and Sub-Saharan Africa. The global average serves as a benchmark to contextualize regional progress. Gender disparities are measured using the Gender Parity Index (GPI), defined as female enrollment divided by male enrollment. A value of 1.0 represents gender parity, while values below or above 1.0 indicate male- and female-favored enrollment gaps, respectively. Our analysis examines GPI trends across three educational levels—primary, secondary, and tertiary—between 2000 and 2020.
 
-![](figures/gpi_primary.png){#fig-gpi-primary width=80%}
+![](figures/gpi_primary.png){#fig-gpi-primary}
 
 As shown in @fig-gpi-primary, primary-level GPI trends reveal substantial convergence toward gender parity across all regions. By 2020, nearly all regions are positioned within the internationally recognized near-parity threshold (0.97–1.03), including the global average, indicating that gender inequality at the point of entry into schooling has been largely eliminated. Latin America & the Caribbean demonstrates a consistently slight female advantage throughout the two decades. East Asia & Pacific and the world average achieved parity by the mid-2000s and maintained it thereafter. Although starting from a relatively disadvantaged position in 2000, South Asia and Sub-Saharan Africa exhibit steady and continuous improvement, closing the enrollment gap substantially by 2020. These patterns suggest that global education initiatives targeting universal primary school access have been effective in reducing structural gender exclusion in early schooling.
 
-![](figures/gpi_secondary.png){#fig-gpi-secondary width=80%}
+![](figures/gpi_secondary.png){#fig-gpi-secondary}
 
 @fig-gpi-secondary shows that while progress is evident at the secondary level, regional disparities remain more persistent than at the primary level. The world average and East Asia & Pacific reached parity by approximately 2010, indicating successful transition for girls into lower-secondary education in these contexts. In contrast, South Asia and Sub-Saharan Africa continue to fall slightly below parity by the end of the time period (approximately 0.94–0.95), despite gradual improvement. The Middle East, North Africa, Afghanistan & Pakistan grouping demonstrates slower convergence toward parity, reflecting continued gendered constraints during adolescence. Latin America & the Caribbean sustains a female-favored balance throughout the period, suggesting comparatively stronger retention of girls beyond primary schooling. These patterns underscore the importance of the primary-to-secondary transition as a critical juncture at which gendered barriers intensify.
 
-![](figures/gpi_tertiary.png){#fig-gpi-tertiary width=80%}
+![](figures/gpi_tertiary.png){#fig-gpi-tertiary}
 
 At the tertiary level, gender disparities become more pronounced and regionally divergent, as shown in  @fig-gpi-tertiary. The world average surpasses parity around 2010, reflecting the global expansion of women’s participation in higher education. Latin America & the Caribbean experiences the strongest female advantage, exceeding a GPI of 1.30 by 2020, while East Asia & Pacific and South Asia also cross parity after the mid-2010s, indicating accelerating gains in women’s university enrollment. In stark contrast, Sub-Saharan Africa remains significantly below parity throughout the period, with GPI values generally under 0.90 and only modest improvements toward the end of the decade. These persistent regional inequalities highlight the combined influence of financial pressures, limited tertiary infrastructure, and lower female completion rates at earlier levels, which collectively constrain women’s access to higher education in Sub-Saharan Africa.
 
