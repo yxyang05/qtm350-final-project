@@ -423,7 +423,7 @@ div.csl-indent {
 <h2 data-number="2.5" class="anchored" data-anchor-id="exporting-final-dataset"><span class="header-section-number">2.5</span> Exporting Final Dataset</h2>
 <p>The final long-format dataset used for analysis was saved as <code>data/wdi_edu_filtered_long.csv</code>.</p>
 <p>Here is summary statistics for the variables we have across all regions from 2000-2020:</p>
-<div id="9d7a2220" class="cell" data-execution_count="1">
+<div id="dd1fcf6f" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sqlite3</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -441,7 +441,7 @@ div.csl-indent {
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="st">WHERE year BETWEEN 2000 AND 2020</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">GROUP BY series;</span></span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="st">'''</span>, conn)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="5">
+<div class="cell-output cell-output-display" data-execution_count="1">
 <div>
 
 
@@ -532,7 +532,7 @@ div.csl-indent {
 <section id="growth-across-education-levels-by-region" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="growth-across-education-levels-by-region"><span class="header-section-number">3.1</span> Growth Across Education Levels by Region</h2>
 <p>This table reports the average annual growth in primary, secondary, and tertiary school enrollment rates for each world region between 2000 and 2020. Growth rates are calculated as the year-to-year change in enrollment values, and then averaged over the 20-year period to capture longer-term regional trends. Positive values indicate that enrollment has generally increased over time, while negative values reflect declining or stagnant progress. Comparing growth across regions and education levels highlights where expansion in access to schooling has been fastest and where progress has been more limited.</p>
-<div id="5413ce7f" class="cell" data-execution_count="2">
+<div id="2b39328d" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pd.read_sql(<span class="st">'''</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="st">WITH growth AS (</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="st">    SELECT</span></span>
@@ -561,7 +561,7 @@ div.csl-indent {
 <span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="st">GROUP BY region</span></span>
 <span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="st">ORDER BY region;</span></span>
 <span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="st">'''</span>, conn)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="6">
+<div class="cell-output cell-output-display" data-execution_count="2">
 <div>
 
 
