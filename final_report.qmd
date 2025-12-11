@@ -23,17 +23,29 @@ csl: apa.csl
 
 # Introduction
 
-Over the past twenty years, global reports have highlighted that access to education remains uneven across many regions of the world. Earlier analyses consistently showed that developing countries lagged behind global averages in school enrollment, including when examining male and female participation separately.
+Over the past twenty years, global reports have consistently highlighted that access to education remains uneven across many regions of the world. Earlier analyses consistently showed that developing countries lagged behind global averages in school enrollment, including when examining male and female participation separately.
 
-We focus on five major world regions: East Asia & Pacific, Latin America & Caribbean, the Middle East & North Africa (including Afghanistan and Pakistan), South Asia, and Sub-Saharan Africa. We choose these regions because these areas have historically exhibited the most pronounced educational inequalities and have been the primary focus of development assistance and policy reforms. These regions encompass a substantial share of the global population and represent contexts where expanded schooling is expected to have the greatest long-term social and economic impact.
+We focus on five major world regions:
 
-Although several of these regions, such as East Asia & Pacific, have substantially increased public investment in schooling and improved educational attainment, it remains unclear whether these advances have led to true convergence toward global norms. This motivates our first research question: Have enrollment rates in these five regions converged toward the world average from 2000 to 2020 across primary, secondary, and tertiary education?
+1\. **East Asia & Pacific**
+
+2\. **Latin America & Caribbean**
+
+3\. **The Middle East & North Africa (including Afghanistan and Pakistan)**
+
+4\. **South Asia**
+
+5\. **Sub-Saharan Africa**
+
+We choose these regions because these areas have historically exhibited the most pronounced educational inequalities and have been the primary focus of development assistance and policy reforms. These regions encompass a substantial share of the global population and represent contexts where expanded schooling is expected to have the greatest long-term social and economic impact.
+
+Although several of these regions, such as East Asia & Pacific, have substantially increased public investment in schooling and improved educational attainment, it remains unclear whether these advances have led to true convergence toward global norms. This motivates our first research question: ***Have enrollment rates in these five regions converged toward the world average from 2000 to 2020 across primary, secondary, and tertiary education?***
 
 Achieving gender parity is also a critical component of education equity. International development discussions have emphasized that equal access for girls is essential for long-term improvements in health, labor participation, and economic stability. While some regions have made substantial progress, the persistence and scale of gender disparities vary considerably. In South Asia, for example, notable increases in girls’ schooling have important implications for future demographic and economic outcomes.
-Given these mixed patterns, our second research question examines whether female–male enrollment gaps have narrowed from 2000 to 2020 within the same regions.
+
+Given these mixed patterns, our second research question ***examines whether female–male enrollment gaps have narrowed from 2000 to 2020 within the same regions.***
 
 By evaluating both regional convergence and gender parity, this project seeks to provide a clearer understanding of how global education equity has evolved over the past two decades and to identify where significant challenges still remain. Our overarching goal is to assess whether the world is moving closer to universal and equitable access to education, or whether uneven progress continues to reinforce existing inequalities.
-
 
 # Data Description & Cleaning
 This project uses school enrollment data from the **World Bank World Development Indicators (WDI)** database. The dataset includes gross enrollment ratios for three education levels—**primary**, **secondary**, and **tertiary**—, total and by gender. The indicators are:
@@ -57,7 +69,7 @@ Data were collected for all available countries over the period **2000–2020** 
 
 ---
 
-Here are our preprocessing steps before  analysis:
+**Here are our preprocessing steps before  analysis**:
 
 ## Removal of Missing Values
 Rows with incomplete observations across any of the enrollment indicators were removed to ensure consistent time-series data. The resulting cleaned dataset (`df_clean`) contains only complete country-year records for all twenty years.
@@ -114,10 +126,8 @@ GROUP BY series;
 ```
 
 # Data Analysis
-
-## Growth in Each Education Level by Region
+## Growth Across Education Levels by Region
 This table reports the average annual growth in primary, secondary, and tertiary school enrollment rates for each world region between 2000 and 2020. Growth rates are calculated as the year-to-year change in enrollment values, and then averaged over the 20-year period to capture longer-term regional trends. Positive values indicate that enrollment has generally increased over time, while negative values reflect declining or stagnant progress. Comparing growth across regions and education levels highlights where expansion in access to schooling has been fastest and where progress has been more limited.
-
 
 ```{python}
 pd.read_sql('''
@@ -152,95 +162,52 @@ ORDER BY region;
 
 Sub-Saharan Africa shows the fastest increase in primary enrollment, with an average annual rise of 0.92 percentage points. This suggests steady and sustained improvement in access to primary education across the region. Sub-Saharan Africa also experienced similar gains in secondary enrollment, although East Asia & Pacific and South Asia outpaced all regions with even higher average yearly increases of 1.39 and 1.47, respectively. For tertiary education, East Asia & Pacific, Latin America & Caribbean, and the global average all exceeded 1 percentage point of growth per year, indicating particularly rapid expansion in higher education access in these regions. Taken together, these trends highlight that while basic education has been improving globally, while Sub-Saharan Africa has prioritized building strong progress at the primary level as a critical foundation for long-term educational development.
 
-```{python}
-from matplotlib import pyplot as plt
-import matplotlib.image as mpimg
+## Enrollment Trends Over Time Across Regions (2000–2020)
+To evaluate how each region compares to global progress in education access, we examine convergence in primary, secondary, and tertiary enrollment rates over the 20-year period. 
 
-# Convergence Lines
-converge_line_primary = mpimg.imread("figures/primary_convergence_lines_colored.png")
-converge_line_secondary = mpimg.imread("figures/secondary_convergence_lines_colored.png")
-converge_line_tertiary = mpimg.imread("figures/tertiary_convergence_lines_colored.png")
+The line graphs show how closely each region tracks the world average and whether disparities have narrowed or widened. 
 
-# Convergence Bars
-converge_bar_primary = mpimg.imread("figures/primary_convergence_barplot_colored.png")
-converge_bar_secondary = mpimg.imread("figures/secondary_convergence_barplot_colored.png")
-converge_bar_tertiary = mpimg.imread("figures/tertiary_convergence_barplot_colored.png")
+![](figures/enrollment_convergence_primary.png){#fig-primary width=80%}
 
-# Gender Gap 
-gpi_primary = mpimg.imread("figures/gpi_trend_primary.png")
-gpi_secondary = mpimg.imread("figures/gpi_trend_secondary.png")
-gpi_tertiary = mpimg.imread("figures/gpi_trend_tertiary.png")
-```
+As shown in @fig-primary, primary enrollment shows clear convergence across regions. Sub-Saharan Africa and the Middle East, North Africa, Afghanistan & Pakistan start well below the world average but improve steadily, reducing the gap by 2020. Latin America & Caribbean remains consistently above the global level but gradually moves closer to it. The differences across regions narrow over time, indicating strong convergence at the primary level.
 
-## Enrollment Trends over Time 2000-2020
-To assess how each region compare to the global education level, we examine the convergence in primary, secondary, and tertiary school enrollment. For 2000 and 2020, we caculated each region’s gap from the world average and measured convergence as the reduction in the absolute distance to the global mean. A positive convergence score indicates the region is moving closer to the world enrollment level while a negative score indicates divergence.
+![](figures/enrollment_convergence_secondary.png){#fig-secondary-line width=80%}
 
-Importantly, these convergence scores should be interpreted alongside previous line graphs. A negative score does not necessarily imply worsening outcomes as divergence may occur because a region’s enrollment rate is rising faster than the world average and surpassing it, not only because it is falling behind. Thus, evaluating both the direction of the gap and the trajectory of enrollment levels is essential for understanding the nature of convergence or divergence.
+As illustrated in @fig-secondary-line, progress at the secondary level is more uneven. High-performing regions such as Latin America & Caribbean and East Asia & Pacific rise steadily and remain above the world average. Meanwhile, South Asia, the Middle East, North Africa, Afghanistan & Pakistan, and especially Sub-Saharan Africa improve more slowly and remain far below global levels. Convergence is weaker here, and substantial regional disparities persist.
 
+![](figures/enrollment_convergence_tertiary.png){#fig-tertiary-line width=80%}
 
-```{python}
-plt.figure()
-plt.imshow(converge_line_primary)
-
-plt.figure()
-plt.imshow(converge_line_secondary)
-
-plt.figure()
-plt.imshow(converge_line_tertiary)
-```
-
-*analysis*
-
-## Regional Convergence
-To assess how each region compare to the global education level, we examine the convergence in primary, secondary, and tertiary school enrollment. For 2000 and 2020, we caculated each region's gap from the world average and measured convergence as the reduction in the absolute distance to the global mean. A positive convergence score indicates the region is moving closer to the world enrollment level while a negative score indicates divergence.
-
-Importantly, these convergence scores should be interpreted alongside previous line graphs. A negative score does not necessarily imply worsening outcomes as divergence may occur because a region’s enrollment rate is rising faster than the world average and surpassing it, not only because it is falling behind. Thus, evaluating both the direction of the gap and the trajectory of enrollment levels is essential for understanding the nature of convergence or divergence.
+As shown in @fig-tertiary-line, tertiary enrollment displays the least convergence. Latin America & Caribbean and East Asia & Pacific expand rapidly and widen their advantage over other regions. The Middle East, North Africa, Afghanistan & Pakistan, South Asia, and Sub-Saharan Africa improve but remain far behind. Overall, tertiary education reflects divergence rather than convergence, with inequalities growing over time.
 
 The bar plots summarize how five major world regions (East Asia & Pacific, Latin America & Caribbean, Middle East & North Africa, South Asoa, and Sub-Saharan Africa) progress across education levels. This helps reveal not only which regions are closing historical enrollment gaps but also where disparities have persisted or widened over the past two decades.
 
-```{python}
-plt.figure()
-plt.imshow(converge_bar_primary)
+![](figures/enrollment_convergence_bar_primary.png){#fig-primary-bar width=80%}
 
-plt.figure()
-plt.imshow(converge_bar_secondary)
+As shown in @fig-primary-bar, Sub-Saharan Africa displays the strongest convergence toward the world average, followed by East Asia & Pacific and Latin America & Caribbean. The Middle East, North Africa, Afghanistan & Pakistan also shows moderate improvement. South Asia slightly diverges, ending farther from the global baseline than in 2000.
 
-plt.figure()
-plt.imshow(converge_bar_tertiary)
-```
+![](figures/enrollment_convergence_bar_secondary.png){#fig-secondary-bar width=80%}
 
+As seen in @fig-secondary-bar, South Asia exhibits the largest improvement and closes the gap most strongly. Other regions experience smaller positive shifts, except East Asia & Pacific, which diverges because its secondary enrollment rose faster than the world average.
 
+![](figures/enrollment_convergence_bar_tertiary.png){#fig-tertiary-bar width=80%}
+
+@fig-tertiary-bar highlights that only South Asia demonstrates meaningful convergence at the tertiary level. All other regions diverge, largely because the world average increased rapidly while regional growth lagged behind.
 
 ## Gender Parity in Educational Participation
 
-In this section, we assess the evolution of female–male enrollment disparities across five major world regions with historically lower baseline access to education: East Asia & Pacific, Latin America & Caribbean, Middle East & North Africa (including Afghanistan and Pakistan), South Asia, and Sub-Saharan Africa. The global average is incorporated as a benchmark to contextualize regional progress. Gender disparities are quantified through the Gender Parity Index (GPI), calculated as female enrollment divided by male enrollment using World Bank WDI statistics. A value of 1.0 represents gender parity, while values below or above 1.0 indicate male- or female-favored enrollment gaps, respectively. The analysis focuses on three educational stages (primary, secondary, and tertiary) over the period 2000 to 2020.
+We assess the evolution of female–male enrollment disparities across five major world regions with historically lower baseline access to education: East Asia & Pacific, Latin America & Caribbean, the Middle East & North Africa (including Afghanistan and Pakistan), South Asia, and Sub-Saharan Africa. The global average serves as a benchmark to contextualize regional progress. Gender disparities are measured using the Gender Parity Index (GPI), defined as female enrollment divided by male enrollment. A value of 1.0 represents gender parity, while values below or above 1.0 indicate male- and female-favored enrollment gaps, respectively. Our analysis examines GPI trends across three educational levels—primary, secondary, and tertiary—between 2000 and 2020.
 
-
-
-```{python}
-plt.figure()
-plt.imshow(gpi_primary)
-
-plt.figure()
-plt.imshow(gpi_secondary)
-
-plt.figure()
-plt.imshow(gpi_tertiary)
-```
-
-#### Primary Education
+![](figures/gpi_primary.png){#fig-gpi-primary width=80%}
 
 As shown in @fig-gpi-primary, primary-level GPI trends reveal substantial convergence toward gender parity across all regions. By 2020, nearly all regions are positioned within the internationally recognized near-parity threshold (0.97–1.03), including the global average, indicating that gender inequality at the point of entry into schooling has been largely eliminated. Latin America & the Caribbean demonstrates a consistently slight female advantage throughout the two decades. East Asia & Pacific and the world average achieved parity by the mid-2000s and maintained it thereafter. Although starting from a relatively disadvantaged position in 2000, South Asia and Sub-Saharan Africa exhibit steady and continuous improvement, closing the enrollment gap substantially by 2020. These patterns suggest that global education initiatives targeting universal primary school access have been effective in reducing structural gender exclusion in early schooling.
 
-#### Secondary Education
+![](figures/gpi_secondary.png){#fig-gpi-secondary width=80%}
 
 @fig-gpi-secondary shows that while progress is evident at the secondary level, regional disparities remain more persistent than at the primary level. The world average and East Asia & Pacific reached parity by approximately 2010, indicating successful transition for girls into lower-secondary education in these contexts. In contrast, South Asia and Sub-Saharan Africa continue to fall slightly below parity by the end of the time period (approximately 0.94–0.95), despite gradual improvement. The Middle East, North Africa, Afghanistan & Pakistan grouping demonstrates slower convergence toward parity, reflecting continued gendered constraints during adolescence. Latin America & the Caribbean sustains a female-favored balance throughout the period, suggesting comparatively stronger retention of girls beyond primary schooling. These patterns underscore the importance of the primary-to-secondary transition as a critical juncture at which gendered barriers intensify.
 
-
-#### Tertiary Education
+![](figures/gpi_tertiary.png){#fig-gpi-tertiary width=80%}
 
 At the tertiary level, gender disparities become more pronounced and regionally divergent, as shown in  @fig-gpi-tertiary. The world average surpasses parity around 2010, reflecting the global expansion of women’s participation in higher education. Latin America & the Caribbean experiences the strongest female advantage, exceeding a GPI of 1.30 by 2020, while East Asia & Pacific and South Asia also cross parity after the mid-2010s, indicating accelerating gains in women’s university enrollment. In stark contrast, Sub-Saharan Africa remains significantly below parity throughout the period, with GPI values generally under 0.90 and only modest improvements toward the end of the decade. These persistent regional inequalities highlight the combined influence of financial pressures, limited tertiary infrastructure, and lower female completion rates at earlier levels, which collectively constrain women’s access to higher education in Sub-Saharan Africa.
-
 
 
 # Results and Discussion
